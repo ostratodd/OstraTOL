@@ -28,9 +28,17 @@ unless($mannames eq ''){
 	$manbin=1;
 }
 
+
 unless($genenames eq ''){
-	@genenames = split(/ /,$genenames);
-	$genebin=1;
+	if($genenames eq 'firstline'){
+		print "Obtaining genename from first line of accessions file\n";
+		$genebin=2;
+		#find gene name for phytab file on first line of accession text file
+	}else{
+		#not blank and probably has a list of gene names with commas
+		@genenames = split(/ /,$genenames);
+		$genebin=1;
+	}
 }
 
 if($datafile eq 'None'){
@@ -48,12 +56,18 @@ if($datafile eq 'None'){
 		push(@accnums, $_);
 	}
 }
+	#check if firstline contains gene family name
+	if($genenames eq 'firstline'){
+		$genenames[0] = shift(@accnums);
+		print "Gene family name is: $genenames[0]\n";
+	}
 	my $countnames = 0;
 	foreach (@accnums){
 		#Should check input for one word per line and throw error if not, which is not done
 	
 	        $accessions = $_;
 		chomp;
+		print "\tGETTING ACCESSION NUMBER: $accessions\n";
 		if($accessions eq ""){
 			die "Put spaces between accession numbers\n";
 		}
