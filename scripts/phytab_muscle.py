@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import os
 import optparse
 import subprocess
@@ -121,7 +123,7 @@ options (listed below) default to 'None' if omitted
 
     global directory
     inputFile = unescape(options.input)
-    directory = unescape(options.path) + os.sep + "data"
+    directory = unescape(options.path) + os.sep + "tmpphytabdata"
 
     os.mkdir(directory)
 
