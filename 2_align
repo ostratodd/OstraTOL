@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#We have a disk image of a Singularity container that has BioPerl installed module load singularity
+#This uses script get_gb.pl to pull sequences from GenBank by accession numbers in testfile
+
+sing_image="/home/pcw/ubuntu_bioperl_biopy2.img" 
+accdir="data/accessions"
+seqdir="data/sequences"
+andir="analyses"
+
+cat $seqdir/*.phytab > $andir/all_genbank.phytab
+
+perl scripts/remove_phytab_dupes.pl $andir/all_genbank.phytab 1 1 $andir/uni_genbank.phytab $andir/dupe_genbank.phytab
