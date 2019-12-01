@@ -9,5 +9,10 @@ seqdir="data/sequences"
 andir="analyses"
 
 cat $seqdir/*.phytab > $andir/all_genbank.phytab
+dos2unix analyses/all_genbank.phytab
 
+#Convert line breaks to unix in case they were from Windows
 perl scripts/remove_phytab_dupes.pl $andir/all_genbank.phytab 1 1 $andir/uni_genbank.phytab $andir/dupe_genbank.phytab
+#./scripts/phytab_muscle.py -i analyses/uni_genbank.phytab
+cp tmpphytabdata/results.data $andir/genbank_muscle.phytab
+
