@@ -6,7 +6,7 @@
 
 #check if using galaxy-dev and change path of bioperl image using singularity
 thehost=$(hostname)
-if [ $thehost = "pod" ]; then
+if [ $thehost = "pod-login1.podcluster" ]; then
 	sing_image="/home/pcw/ubuntu_bioperl_biopy2.img" 
 fi
 if [ $thehost = "galaxy-dev" ]; then

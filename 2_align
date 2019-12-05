@@ -10,9 +10,11 @@ tdir="data/transcriptomes"
 andir="analyses"
 
 cat $seqdir/*.phytab $tdir/oakley_2013_?8S.phytab > $andir/all_genbank.phytab
-dos2unix analyses/all_genbank.phytab
+
 
 #Convert line breaks to unix in case they were from Windows
+dos2unix analyses/all_genbank.phytab
+
 perl scripts/remove_phytab_dupes.pl $andir/all_genbank.phytab 1 1 $andir/uni_genbank.phytab $andir/dupe_genbank.phytab
 
 #Uncomment to align all sequences. Takes time, so commenting here to allow rerunning other parts
@@ -32,5 +34,9 @@ cp tmpphytabdata/results.data $andir/genbank_muscle.phytab
 #my $htmlfile=shift(@ARGV);              #8 html file
 #my $htmlfile2=shift(@ARGV);             #9 html file for accession numbers
 
-./scripts/phylocatenator.pl $andir/genbank_muscle.phytab 1 4 50 None None $andir/genbank_muscle.phylip $andir/genbank_muscle.partition.txt $andir/genbank_muscle.html $andir/genbank_muscle.accessiontable.html
+rm $andir/genbank_muscle.phylip
+rm $andir/genbank_muscle.partition.txt
+rm $andir/genbank_muscle.html
+rm $andir/genbank_muscle.accessiontable.html
+./scripts/phylocatenator.pl $andir/genbank_muscle.phytab 1 4 50 None None $andir/genbank_muscle.phylip $andir/genbank_muscle.partition.txt $andir/genbank_muscle.html $andir/genbank_muscle.accessiontable.html > phylocat.log
  
