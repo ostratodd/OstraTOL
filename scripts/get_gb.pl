@@ -68,7 +68,7 @@ if($datafile eq 'None'){
 	        $accessions = $_;
 		chomp;
 		print "\tGETTING ACCESSION NUMBER: $accessions\n";
-		sleep 0.5; #to avoid error of too many queries to NCBI
+		sleep 1; #to avoid error of too many queries to NCBI
 		if($accessions eq ""){
 			die "Put spaces between accession numbers\n";
 		}
