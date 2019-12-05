@@ -3,7 +3,18 @@
 #We have a disk image of a Singularity container that has BioPerl installed module load singularity
 #This uses script get_gb.pl to pull sequences from GenBank by accession numbers in testfile
 
-sing_image="/home/pcw/ubuntu_bioperl_biopy2.img" 
+
+#check if using galaxy-dev and change path of bioperl image using singularity
+thehost=$(hostname)
+if [ $thehost = "pod" ]; then
+	sing_image="/home/pcw/ubuntu_bioperl_biopy2.img" 
+fi
+if [ $thehost = "galaxy-dev" ]; then
+        echo Using host: $thehost
+	sing_image="ubuntu_bioperl_biopy2.img" 
+
+fi
+
 accdir="data/accessions"
 seqdir="data/sequences"
 
