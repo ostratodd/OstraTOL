@@ -64,24 +64,57 @@ seqdir="data/sequences"
 #singularity exec $sing_image perl scripts/get_gb.pl $accdir/yoo_et_al_2019_co1.txt nucleotide phytab $seqdir/yoo_et_al_2019_co1.phytab '' '' firstline
 #singularity exec $sing_image perl scripts/get_gb.pl $accdir/yu_et_al_2006_18s.txt nucleotide phytab $seqdir/yu_et_al_2006_18s.phytab '' '' firstline
 #singularity exec $sing_image perl scripts/get_gb.pl $accdir/yu_et_al_2018_18s.txt nucleotide phytab $seqdir/yu_et_al_2018_18s.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/Estronza_2017_28S.txt nucleotide phytab $seqdir/Estronza_2017_28S.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2015_18S.txt nucleotide phytab $seqdir/Karanovic_2015_18S.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2015_28S.txt nucleotide phytab $seqdir/Karanovic_2015_28S.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2015_CO1.txt nucleotide phytab $seqdir/Karanovic_2015_CO1.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/karanovic_2016b_28S.txt nucleotide phytab $seqdir/karanovic_2016b_28S.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2017c_16S.txt nucleotide phytab $seqdir/Karanovic_2017c_16S.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2017c_18S.txt nucleotide phytab $seqdir/Karanovic_2017c_18S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/Estronza_2017_28S.txt nucleotide phytab $seqdir/Estronza_2017_28S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2015_18S.txt nucleotide phytab $seqdir/Karanovic_2015_18S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2015_28S.txt nucleotide phytab $seqdir/Karanovic_2015_28S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2015_CO1.txt nucleotide phytab $seqdir/Karanovic_2015_CO1.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/karanovic_2016b_28S.txt nucleotide phytab $seqdir/karanovic_2016b_28S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2017c_16S.txt nucleotide phytab $seqdir/Karanovic_2017c_16S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2017c_18S.txt nucleotide phytab $seqdir/Karanovic_2017c_18S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2017c_28S.txt nucleotide phytab $seqdir/Karanovic_2017c_28S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2017c_CO1.txt nucleotide phytab $seqdir/Karanovic_2017c_CO1.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2000_CO1.txt nucleotide phytab $seqdir/schon_2000_CO1.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2000_ITS1.txt nucleotide phytab $seqdir/schon_2000_ITS1.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2014_16S.txt nucleotide phytab $seqdir/schon_2014_16S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2014_28S.txt nucleotide phytab $seqdir/schon_2014_28S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2014_ITS.txt nucleotide phytab $seqdir/schon_2014_ITS.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/tanaka_2014b_18S.txt nucleotide phytab $seqdir/tanaka_2014b_18S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/wakayama_2006_16S.txt nucleotide phytab $seqdir/wakayama_2006_16S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/zhang_2003_18S.txt nucleotide phytab $seqdir/zhang_2003_18S.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/zhang_2003_28S.txt nucleotide phytab $seqdir/zhang_2003_28S.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Bode_et_al_2010_16S.txt nucleotide phytab $seqdir/Bode_et_al_2010_16S.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Bode_et_al_2010_CO1.txt nucleotide phytab $seqdir/Bode_et_al_2010_CO1.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2001_16S.txt nucleotide phytab $seqdir/schon_2001_16S.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2001_CO1.txt nucleotide phytab $seqdir/schon_2001_CO1.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2001_ITS1.txt nucleotide phytab $seqdir/schon_2001_ITS1.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2010_CO1.txt nucleotide phytab $seqdir/schon_2010_CO1.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2010_ITS.txt nucleotide phytab $seqdir/schon_2010_ITS.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2010_ITS1.txt nucleotide phytab $seqdir/schon_2010_ITS1.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Syme_2012_16S.txt nucleotide phytab $seqdir/Syme_2012_16S.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Syme_2012_18S.txt nucleotide phytab $seqdir/Syme_2012_18S.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Syme_2012_28S_eemm.txt nucleotide phytab $seqdir/Syme_2012_28S_eemm.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Syme_2012_28S_vx.txt nucleotide phytab $seqdir/Syme_2012_28S_vx.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Estronza_2017_28S_ddff.txt nucleotide phytab $seqdir/Estronza_2017_28S_ddff.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Estronza_2017_28S_vx.txt nucleotide phytab $seqdir/Estronza_2017_28S_vx.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2015_28S_ddff.txt nucleotide phytab $seqdir/Karanovic_2015_28S_ddff.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2015_28S_eemm.txt nucleotide phytab $seqdir/Karanovic_2015_28S_eemm.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2015_28S_vx.txt nucleotide phytab $seqdir/Karanovic_2015_28S_vx.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/karanovic_2016b_28S_ddff.txt nucleotide phytab $seqdir/karanovic_2016b_28S_ddff.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/karanovic_2016b_28S_eemm.txt nucleotide phytab $seqdir/karanovic_2016b_28S_eemm.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/karanovic_2016b_28S_vx.txt nucleotide phytab $seqdir/karanovic_2016b_28S_vx.phytab '' '' firstline
 singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2017c_28S.txt nucleotide phytab $seqdir/Karanovic_2017c_28S.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2017c_CO1.txt nucleotide phytab $seqdir/Karanovic_2017c_CO1.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2000_CO1.txt nucleotide phytab $seqdir/schon_2000_CO1.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2000_ITS1.txt nucleotide phytab $seqdir/schon_2000_ITS1.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2014_16S.txt nucleotide phytab $seqdir/schon_2014_16S.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2014_28S.txt nucleotide phytab $seqdir/schon_2014_28S.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/schon_2014_ITS.txt nucleotide phytab $seqdir/schon_2014_ITS.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/tanaka_2014b_18S.txt nucleotide phytab $seqdir/tanaka_2014b_18S.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/wakayama_2006_16S.txt nucleotide phytab $seqdir/wakayama_2006_16S.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/zhang_2003_18S.txt nucleotide phytab $seqdir/zhang_2003_18S.phytab '' '' firstline
-singularity exec $sing_image perl scripts/get_gb.pl $accdir/zhang_2003_28S.txt nucleotide phytab $seqdir/zhang_2003_28S.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2017c_28S_ddff.txt nucleotide phytab $seqdir/Karanovic_2017c_28S_ddff.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2017c_28S_eemm.txt nucleotide phytab $seqdir/Karanovic_2017c_28S_eemm.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Karanovic_2017c_28S_vx.txt nucleotide phytab $seqdir/Karanovic_2017c_28S_vx.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/karanovic_et_al_2017b_ 28S_ddff.txt nucleotide phytab $seqdir/karanovic_et_al_2017b_ 28S_ddff.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/karanovic_et_al_2017b_ 28S_eemm.txt nucleotide phytab $seqdir/karanovic_et_al_2017b_ 28S_eemm.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/karanovic_et_al_2017b_28S.txt nucleotide phytab $seqdir/karanovic_et_al_2017b_28S.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/karanovic_et_al_2017b_28S_vx.txt nucleotide phytab $seqdir/karanovic_et_al_2017b_28S_vx.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Yoo_et_al_2016_28s vx.txt nucleotide phytab $seqdir/Yoo_et_al_2016_28s vx.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Yoo_et_al_2016_28s.txt nucleotide phytab $seqdir/Yoo_et_al_2016_28s.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Yoo_et_al_2016_28s_ddff.txt nucleotide phytab $seqdir/Yoo_et_al_2016_28s_ddff.phytab '' '' firstline
+singularity exec $sing_image perl scripts/get_gb.pl $accdir/Yoo_et_al_2016_28s_eemm.txt nucleotide phytab $seqdir/Yoo_et_al_2016_28s_eemm.phytab '' '' firstline
+
 
 
 
