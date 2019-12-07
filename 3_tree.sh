@@ -1,2 +1,7 @@
-#ML tree with IQ-Tree no partitions, assume GTR model -pre is name of analysis
-iqtree -s analyses/genbank_muscle.phylip -m GTR -pre phylogenies/11302019 -redo -nt 4
+#!/bin/bash
+
+#Sending bash script to submit slurm job 
+sbatch ./scripts/iqtree_slurm.sh analyses/genbank_muscle.phylip phylogenies/
+
+
+

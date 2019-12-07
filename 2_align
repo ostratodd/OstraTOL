@@ -13,9 +13,14 @@ cat $seqdir/*.phytab $tdir/oakley_2013_?8S.phytab > $andir/all_genbank.phytab
 
 
 #Convert line breaks to unix in case they were from Windows
-dos2unix analyses/all_genbank.phytab
+dos2unix $andir/all_genbank.phytab
 
+
+perl scripts/remove_acc.pl $andir/all_genbank.phytab Accessions_to_be_removed.txt $andir/all_genbank_k.phytab $andir/all_genbank_d.phytab 
 perl scripts/remove_phytab_dupes.pl $andir/all_genbank.phytab 1 1 $andir/uni_genbank.phytab $andir/dupe_genbank.phytab
+
+
+
 
 #Uncomment to align all sequences. Takes time, so commenting here to allow rerunning other parts
 rm -r tmpphytabdata #remove directory created by phytab_muscle
