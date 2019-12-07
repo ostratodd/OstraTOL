@@ -61,6 +61,7 @@ def toDataSingle(text):
 	return result[:]
 
 def muscle(input):
+    print("NOW ALIGNING :", input, "\n")
     file_name = directory + os.sep + input
     popen = subprocess.Popen(['muscle', "-in", file_name, "-out", file_name + aligned_extension])  # ./muscle
     popen.wait()
