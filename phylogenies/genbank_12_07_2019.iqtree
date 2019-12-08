@@ -1,0 +1,1048 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: analyses/genbank_muscle.phylip
+Type of analysis: tree reconstruction
+Random seed number: 168779
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 482 sequences with 52431 nucleotide sites
+Number of constant sites: 33007 (= 62.9532% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 33007 (= 62.9532% of all sites)
+Number of parsimony informative sites: 10842
+Number of distinct site patterns: 15422
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F
+
+Rate parameter R:
+
+  A-C: 0.7317
+  A-G: 1.6513
+  A-T: 1.3828
+  C-G: 0.7581
+  C-T: 2.6362
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2502
+  pi(C) = 0.241
+  pi(G) = 0.256
+  pi(T) = 0.2528
+
+Rate matrix Q:
+
+  A   -0.9311    0.1731     0.415    0.3431
+  C    0.1797    -1.024    0.1905     0.654
+  G    0.4055    0.1793   -0.8329    0.2481
+  T    0.3396    0.6235    0.2513    -1.214
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -429469.6169 (s.e. 4304.8866)
+Unconstrained log-likelihood (without tree): -339528.5190
+Number of free parameters (#branches + #model parameters): 969
+Akaike information criterion (AIC) score: 860877.2338
+Corrected Akaike information criterion (AICc) score: 860913.7636
+Bayesian information criterion (BIC) score: 869469.6023
+
+Total tree length (sum of branch lengths): 36.6061
+Sum of internal branch lengths: 12.2259 (33.3985% of tree length)
+
+WARNING: 7 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Acanthocyclops_vernalis' is drawn at root
+
++--Acanthocyclops_vernalis
+|
+|                                                               +--Actinocythereis_costata
+|                                                            +--|
+|                                                            |  +--Hirsutocythere_hanaii
+|                                                         +--|
+|                                                         |  |                 +--Aurila_disparata
+|                                                         |  |              +--|
+|                                                         |  |              |  +--Robustaurila_salebrosa
+|                                                         |  |           +--|
+|                                                         |  |           |  +--Coquimba_ishizakii
+|                                                         |  |        +--|
+|                                                         |  |        |  +--Caudites_asiaticus
+|                                                         |  |     +--|
+|                                                         |  |     |  +--Puriana_sp
+|                                                         |  |  +--|
+|                                                         |  |  |  |  +--Bradleya_nuda
+|                                                         |  |  |  +--|
+|                                                         |  |  |     +--Tenedocythere_transoceanica
+|                                                         |  +--|
+|                                                         |     |     +--Bicornucythere_bisanensis
+|                                                         |     |  +--|
+|                                                         |     |  |  |  +--Neomonoceratina_crispata
+|                                                         |     |  |  +--|
+|                                                         |     |  |     +**Pistocythereis_bradyformis
+|                                                         |     +--|
+|                                                         |        +--Trachyleberis_sp.
+|                                                      +--|
+|                                                      |  |     +--Cythere_lutea
+|                                                      |  |  +--|
+|                                                      |  |  |  |                 +--Krithe_angelikae
+|                                                      |  |  |  |              +--|
+|                                                      |  |  |  |              |  +--Krithe_maxima
+|                                                      |  |  |  |           +--|
+|                                                      |  |  |  |           |  |  +--Krithe_kamchatkaensis
+|                                                      |  |  |  |           |  +--|
+|                                                      |  |  |  |           |     +--Krithe_rara
+|                                                      |  |  |  |        +--|
+|                                                      |  |  |  |        |  +--Krithe_tsukagoshii
+|                                                      |  |  |  |     +--|
+|                                                      |  |  |  |     |  +--Krithe_cerritula
+|                                                      |  |  |  |  +--|
+|                                                      |  |  |  |  |  +--Parakrithella_pseudadonta
+|                                                      |  |  |  +--|
+|                                                      |  |  |     |  +--Neomonoceratina_microreticulata
+|                                                      |  |  |     +--|
+|                                                      |  |  |        +--Spinileberis_quadriaculeata
+|                                                      |  +--|
+|                                                      |     |  +--Perissocytheridea_japonica
+|                                                      |     +--|
+|                                                      |        |  +--Pontocythere_sp.
+|                                                      |        +--|
+|                                                      |           +--Pontocythere_subjaponica
+|                                                   +--|
+|                                                   |  |  +--Limnocythere_inopinata
+|                                                   |  +--|
+|                                                   |     |  +**Limnocythere_sp
+|                                                   |     +--|
+|                                                   |        +**Limnocythere_sp.
+|                                                +--|
+|                                                |  |  +--Cobanocythere_japonica
+|                                                |  +--|
+|                                                |     |  +--Xestoleberis_hanaii
+|                                                |     +--|
+|                                                |        +--Xestoleberis_sp
+|                                             +--|
+|                                             |  |           +--Albileberis_sheyangensis
+|                                             |  |        +--|
+|                                             |  |        |  +--Leptocythere_ventriclivosa
+|                                             |  |     +--|
+|                                             |  |     |  +--Leptocythere_lacertosa
+|                                             |  |  +--|
+|                                             |  |  |  |  +--Ishizakiella_miurensis
+|                                             |  |  |  +--|
+|                                             |  |  |     +--Tanella_opima
+|                                             |  +--|
+|                                             |     |  +--Cytheromorpha_acupunctata
+|                                             |     +--|
+|                                             |        +--Loxocorniculum_mutsuense
+|                                          +--|
+|                                          |  |        +--Loxoconcha_sp.
+|                                          |  |     +--|
+|                                          |  |     |  +--Neomonoceratina_sp.
+|                                          |  |  +--|
+|                                          |  |  |  +--Xestoleberis_sp.
+|                                          |  +--|
+|                                          |     +--Metacypris_digitiformis
+|                                       +--|
+|                                       |  |  +--Keijia_demissa
+|                                       |  +--|
+|                                       |     +--Kotoracythere_inconspicua
+|                                    +--|
+|                                    |  |  +--Cytheropteron_subuchioi
+|                                    |  +--|
+|                                    |     |        +--Hemicytherura_kajiyamai
+|                                    |     |     +--|
+|                                    |     |     |  +--Semicytherura_striata
+|                                    |     |  +--|
+|                                    |     |  |  +--Howeina_sp.
+|                                    |     +--|
+|                                    |        |     +--Paradoxostoma_setoense
+|                                    |        |  +--|
+|                                    |        |  |  +--Paradoxostoma_sp
+|                                    |        +--|
+|                                    |           +--Xiphichilus_sp.
+|                                 +--|
+|                                 |  |                   +--Archaeocyprideis_tuberculata
+|                                 |  |                +--|
+|                                 |  |                |  |        +---Cyprideis_cf._australiensis_IS-2016
+|                                 |  |                |  |     +--|
+|                                 |  |                |  |     |  |        +---Romecytheridea_ampla
+|                                 |  |                |  |     |  |     +--|
+|                                 |  |                |  |     |  |     |  +--Romecytheridea_bacata
+|                                 |  |                |  |     |  |  +--|
+|                                 |  |                |  |     |  |  |  +--Romecytheridea_longior
+|                                 |  |                |  |     |  +--|
+|                                 |  |                |  |     |     |  +---Tanganyikacythere_burtonensis
+|                                 |  |                |  |     |     +--|
+|                                 |  |                |  |     |        +--Tanganyikacythere_caljoni
+|                                 |  |                |  |  +--|
+|                                 |  |                |  |  |  |  +----Cyprideis_torosa
+|                                 |  |                |  |  |  +--|
+|                                 |  |                |  |  |     |  +---Mesocyprideis_irsacae
+|                                 |  |                |  |  |     +--|
+|                                 |  |                |  |  |        +--Mesocyprideis_pila
+|                                 |  |                |  +--|
+|                                 |  |                |     |  +--Cyprideis_spatula
+|                                 |  |                |     +--|
+|                                 |  |                |        +--Romecytheridea_tenuisculpta
+|                                 |  |             +--|
+|                                 |  |             |  +--Mesocyprideis_sp.
+|                                 |  |          +--|
+|                                 |  |          |  +---Kavalacythereis_braconensis
+|                                 |  +----------|
+|                                 |             |                           +---Cytherissa_crepera
+|                                 |             |                        +--|
+|                                 |             |                        |  +----Cytherissa_cytheriformis
+|                                 |             |                     +--|
+|                                 |             |                     |  +--Cytherissa_elongata
+|                                 |             |                  +--|
+|                                 |             |                  |  |     +--Cytherissa_donquixotei
+|                                 |             |                  |  |  +--|
+|                                 |             |                  |  |  |  +--Cytherissa_verrucosa
+|                                 |             |                  |  +--|
+|                                 |             |                  |     +--Cytherissa_parva
+|                                 |             |               +--|
+|                                 |             |               |  |           +--Cytherissa_excelsiformis
+|                                 |             |               |  |        +--|
+|                                 |             |               |  |        |  |     +--Cytherissa_lata
+|                                 |             |               |  |        |  |  +--|
+|                                 |             |               |  |        |  |  |  +----Cytherissa_triangulata
+|                                 |             |               |  |        |  +--|
+|                                 |             |               |  |        |     +--Cytherissa_tuberculata
+|                                 |             |               |  |     +--|
+|                                 |             |               |  |     |  |     +--Cytherissa_parallela
+|                                 |             |               |  |     |  |  +--|
+|                                 |             |               |  |     |  |  |  +-----Cytherissa_plena
+|                                 |             |               |  |     |  +--|
+|                                 |             |               |  |     |     +--Cytherissa_truncata
+|                                 |             |               |  |  +--|
+|                                 |             |               |  |  |  +--Cytherissa_interposita
+|                                 |             |               |  +--|
+|                                 |             |               |     +--Cytherissa_sernovi
+|                                 |             |            +--|
+|                                 |             |            |  |           +----Cytherissa_glomerata
+|                                 |             |            |  |        +--|
+|                                 |             |            |  |        |  +--Cytherissa_sinistrodentata
+|                                 |             |            |  |     +--|
+|                                 |             |            |  |     |  +--Cytherissa_lacustris
+|                                 |             |            |  |  +--|
+|                                 |             |            |  |  |  +--Cytherissa_sp.
+|                                 |             |            |  +--|
+|                                 |             |            |     +--Cytherissa_pusilla
+|                                 |             +------------|
+|                                 |                          |  +--Cytherissa_golyschkinae
+|                                 |                          +--|
+|                                 |                             +--Cytherissa_pterygota
+|                              +--|
+|                              |  |  +--Bythoceratina_hanejiensis
+|                              |  +--|
+|                              |     |  +--Psammocythere_oviformis
+|                              |     +--|
+|                              |        |  +--Schlerochilus_oshoroensis
+|                              |        +--|
+|                              |           +--Uncinocythere_occidentalis
+|                           +--|
+|                           |  |                         +------Alicenula_inversa
+|                           |  |                      +--|
+|                           |  |                      |  |     +--------Darwinula_brasiliensis
+|                           |  |                      |  |  +--|
+|                           |  |                      |  |  |  +---Microdarwinula_zimmeri
+|                           |  |                      |  +--|
+|                           |  |                      |     +--------Penthesilenula_kohanga
+|                           |  |                 +----|
+|                           |  |                 |    |     +--Vestalenula_marmonieri
+|                           |  |                 |    |  +--|
+|                           |  |                 |    |  |  +--Vestalenula_molopoensis
+|                           |  |                 |    +--|
+|                           |  |                 |       +--Vestalenula_matildae
+|                           |  |              +--|
+|                           |  |              |  |     +--Darwinula_sp
+|                           |  |              |  |  +--|
+|                           |  |              |  |  |  +--Vestalenula_sp
+|                           |  |              |  +--|
+|                           |  |              |     |     +--Darwinula_sp.
+|                           |  |              |     |  +**|
+|                           |  |              |     |  |  +--Darwinula_stevensoni
+|                           |  |              |     +--|
+|                           |  |              |        +--Vestalenula_sp.
+|                           |  |           +--|
+|                           |  |           |  |              +--Cytherella_leizhouensis
+|                           |  |           |  |           +--|
+|                           |  |           |  |           |  +--Cytherelloidea_munechikai
+|                           |  |           |  |        +--|
+|                           |  |           |  |        |  +--Keijcyoidea_sp.
+|                           |  |           |  |     +**|
+|                           |  |           |  |     |  +--Cytherelloidea_sp
+|                           |  |           |  |  +--|
+|                           |  |           |  |  |  +--------Vestalenula_brasiliensis
+|                           |  |           |  +--|
+|                           |  |           |     +--Cytherelloidea_californica
+|                           |  |        +--|
+|                           |  |        |  |        +--Bairdia_sp.
+|                           |  |        |  |     +--|
+|                           |  |        |  |     |  +--Neonesidea_haikangensis
+|                           |  |        |  |  +--|
+|                           |  |        |  |  |  |  +**Nenesidea_oligodentata
+|                           |  |        |  |  |  +--|
+|                           |  |        |  |  |     +**Neonesidea_oligodentata
+|                           |  |        |  +--|
+|                           |  |        |     +--Neonesidea_sp
+|                           |  |     +--|
+|                           |  |     |  +---Terrestricythere_pratensis
+|                           |  |  +--|
+|                           |  |  |  |                                                                       +--Baicalocandona_navitarum
+|                           |  |  |  |                                                                    +--|
+|                           |  |  |  |                                                                    |  +--Candona_orbiculata
+|                           |  |  |  |                                                                 +--|
+|                           |  |  |  |                                                                 |  +--Candona_godlewski
+|                           |  |  |  |                                                              +--|
+|                           |  |  |  |                                                              |  +----Fabaeformiscandona_protzi
+|                           |  |  |  |                                                           +--|
+|                           |  |  |  |                                                           |  |  +--Candona_directa
+|                           |  |  |  |                                                           |  +--|
+|                           |  |  |  |                                                           |     +--Candoninae_sp.
+|                           |  |  |  |                                                        +--|
+|                           |  |  |  |                                                        |  |     +--Candona_quasiakaina
+|                           |  |  |  |                                                        |  |  +--|
+|                           |  |  |  |                                                        |  |  |  +--Typhlocypris_choi
+|                           |  |  |  |                                                        |  +--|
+|                           |  |  |  |                                                        |     +--Candona_spicata
+|                           |  |  |  |                                                     +--|
+|                           |  |  |  |                                                     |  +---Fabaeformiscandona_acuminata
+|                           |  |  |  |                                                  +--|
+|                           |  |  |  |                                                  |  +--Fabaeformiscandona_kushiroensis
+|                           |  |  |  |                                               +--|
+|                           |  |  |  |                                               |  +---Candona_rupestris
+|                           |  |  |  |                                            +--|
+|                           |  |  |  |                                            |  |     +------------Candona_bimucronata
+|                           |  |  |  |                                            |  |  +--|
+|                           |  |  |  |                                            |  |  |  |  +--Candona_neglecta
+|                           |  |  |  |                                            |  |  |  +--|
+|                           |  |  |  |                                            |  |  |     +-----Fabaeformiscandona_brevicornis
+|                           |  |  |  |                                            |  +--|
+|                           |  |  |  |                                            |     +--Candona_candida
+|                           |  |  |  |                                         +--|
+|                           |  |  |  |                                         |  |        +--Candona_holzkampfi
+|                           |  |  |  |                                         |  |     +--|
+|                           |  |  |  |                                         |  |     |  |  +**Fabaeformiscandona_sp.
+|                           |  |  |  |                                         |  |     |  +--|
+|                           |  |  |  |                                         |  |     |     +**Fabaeformiscandona_subacuta
+|                           |  |  |  |                                         |  |  +--|
+|                           |  |  |  |                                         |  |  |  +--Earicandona_mounchyon
+|                           |  |  |  |                                         |  +--|
+|                           |  |  |  |                                         |     +--Fabaeformiscandona_fabaeformis
+|                           |  |  |  |                                      +--|
+|                           |  |  |  |                                      |  |           +------Candonopsis_kingsleii
+|                           |  |  |  |                                      |  |        +--|
+|                           |  |  |  |                                      |  |        |  +------Fabaeformiscandona_fragilis
+|                           |  |  |  |                                      |  |     +--|
+|                           |  |  |  |                                      |  |     |  +-----Nannocandona_faba
+|                           |  |  |  |                                      |  |  +--|
+|                           |  |  |  |                                      |  |  |  +----Pseudocandona_compressa
+|                           |  |  |  |                                      |  +--|
+|                           |  |  |  |                                      |     |              +--Pseudocandona_albicans
+|                           |  |  |  |                                      |     |           +--|
+|                           |  |  |  |                                      |     |           |  +--Pseudocandona_insculpta
+|                           |  |  |  |                                      |     |        +--|
+|                           |  |  |  |                                      |     |        |  +------Pseudocandona_regisnikolai
+|                           |  |  |  |                                      |     |     +--|
+|                           |  |  |  |                                      |     |     |  |     +---Pseudocandona_marchica
+|                           |  |  |  |                                      |     |     |  |  +--|
+|                           |  |  |  |                                      |     |     |  |  |  +----Typhlocypris_cavicola
+|                           |  |  |  |                                      |     |     |  +--|
+|                           |  |  |  |                                      |     |     |     |  +--Pseudocandona_pratensis
+|                           |  |  |  |                                      |     |     |     +--|
+|                           |  |  |  |                                      |     |     |        +--Pseudocandona_sp.
+|                           |  |  |  |                                      |     |  +--|
+|                           |  |  |  |                                      |     |  |  |  +--Pseudocandona_hartwigi
+|                           |  |  |  |                                      |     |  |  +--|
+|                           |  |  |  |                                      |     |  |     +--Pseudocandona_tenuirostris
+|                           |  |  |  |                                      |     +--|
+|                           |  |  |  |                                      |        |     +--Typhlocypris_eremita
+|                           |  |  |  |                                      |        |  +--|
+|                           |  |  |  |                                      |        |  |  +--Typhlocypris_sywulai
+|                           |  |  |  |                                      |        +--|
+|                           |  |  |  |                                      |           +--Typhlocypris_sp.
+|                           |  |  |  |                                   +--|
+|                           |  |  |  |                                   |  +--Cryptocandona_smithi
+|                           |  |  |  |                                +--|
+|                           |  |  |  |                                |  +----Candona_weltneri
+|                           |  |  |  |                             +--|
+|                           |  |  |  |                             |  +--Candonopsis_transgrediens
+|                           |  |  |  |                          +--|
+|                           |  |  |  |                          |  |              +--Cryptocandona_sp.
+|                           |  |  |  |                          |  |           +--|
+|                           |  |  |  |                          |  |           |  +**Cryptocandona_vavrai
+|                           |  |  |  |                          |  |        +--|
+|                           |  |  |  |                          |  |        |  +--Trapezicandona_sp.
+|                           |  |  |  |                          |  |     +--|
+|                           |  |  |  |                          |  |     |  +---Mixtacandona_sp.
+|                           |  |  |  |                          |  |  +--|
+|                           |  |  |  |                          |  |  |  |  +--Pilbaracandona_eberhardi
+|                           |  |  |  |                          |  |  |  +--|
+|                           |  |  |  |                          |  |  |     |     +--Undulacandona_aeolus
+|                           |  |  |  |                          |  |  |     |  +--|
+|                           |  |  |  |                          |  |  |     |  |  +--Undulacandona_koreana
+|                           |  |  |  |                          |  |  |     +--|
+|                           |  |  |  |                          |  |  |        |  +--Undulacandona_andromeda
+|                           |  |  |  |                          |  |  |        +--|
+|                           |  |  |  |                          |  |  |           +--Undulacandona_sp.
+|                           |  |  |  |                          |  +--|
+|                           |  |  |  |                          |     +-------Mixtacandona_chappuisi
+|                           |  |  |  |                       +--|
+|                           |  |  |  |                       |  +---Fabaeformiscandona_aemonae
+|                           |  |  |  |                    +--|
+|                           |  |  |  |                    |  |                                      +--Bennelongia_coondinerensis
+|                           |  |  |  |                    |  |                                   +--|
+|                           |  |  |  |                    |  |                                   |  +--Bennelongia_lata
+|                           |  |  |  |                    |  |                                +--|
+|                           |  |  |  |                    |  |                                |  |     +--Bennelongia_cuensis
+|                           |  |  |  |                    |  |                                |  |  +--|
+|                           |  |  |  |                    |  |                                |  |  |  +--Bennelongia_cuensis_sensu_lato_RS150
+|                           |  |  |  |                    |  |                                |  +--|
+|                           |  |  |  |                    |  |                                |     +--Bennelongia_gwelupensis
+|                           |  |  |  |                    |  |                             +--|
+|                           |  |  |  |                    |  |                             |  |  +--Bennelongia_regina
+|                           |  |  |  |                    |  |                             |  +--|
+|                           |  |  |  |                    |  |                             |     +---Bennelongia_triangulata
+|                           |  |  |  |                    |  |                          +--|
+|                           |  |  |  |                    |  |                          |  |           +---Bennelongia_dedeckkeri
+|                           |  |  |  |                    |  |                          |  |        +--|
+|                           |  |  |  |                    |  |                          |  |        |  +--Bennelongia_scanloni
+|                           |  |  |  |                    |  |                          |  |     +--|
+|                           |  |  |  |                    |  |                          |  |     |  +---Bennelongia_harpago
+|                           |  |  |  |                    |  |                          |  |  +--|
+|                           |  |  |  |                    |  |                          |  |  |  +--Bennelongia_tirigie
+|                           |  |  |  |                    |  |                          |  +--|
+|                           |  |  |  |                    |  |                          |     |     +--Bennelongia_koendersae
+|                           |  |  |  |                    |  |                          |     |  +--|
+|                           |  |  |  |                    |  |                          |     |  |  +--Bennelongia_sp.
+|                           |  |  |  |                    |  |                          |     +--|
+|                           |  |  |  |                    |  |                          |        +--Bennelongia_pinderi
+|                           |  |  |  |                    |  |                       +--|
+|                           |  |  |  |                    |  |                       |  |     +--Bennelongia_kimberleyensis
+|                           |  |  |  |                    |  |                       |  |  +--|
+|                           |  |  |  |                    |  |                       |  |  |  +--Bennelongia_strellyensis
+|                           |  |  |  |                    |  |                       |  +--|
+|                           |  |  |  |                    |  |                       |     +---Bennelongia_pinpi
+|                           |  |  |  |                    |  |                    +--|
+|                           |  |  |  |                    |  |                    |  +----Eucypris_mareotica
+|                           |  |  |  |                    |  |                 +--|
+|                           |  |  |  |                    |  |                 |  |  +--Eucypris_crassa
+|                           |  |  |  |                    |  |                 |  +--|
+|                           |  |  |  |                    |  |                 |     |  +------Eucypris_virens
+|                           |  |  |  |                    |  |                 |     +--|
+|                           |  |  |  |                    |  |                 |        +----Tonnacypris_lutaria
+|                           |  |  |  |                    |  |              +--|
+|                           |  |  |  |                    |  |              |  |                       +--Bradleycypris_vittata
+|                           |  |  |  |                    |  |              |  |                    +--|
+|                           |  |  |  |                    |  |              |  |                    |  +--Tanycypris_sp.
+|                           |  |  |  |                    |  |              |  |                 +--|
+|                           |  |  |  |                    |  |              |  |                 |  +--Strandesia_uenoi
+|                           |  |  |  |                    |  |              |  |              +--|
+|                           |  |  |  |                    |  |              |  |              |  |     +**Cypretta_seurati
+|                           |  |  |  |                    |  |              |  |              |  |  +--|
+|                           |  |  |  |                    |  |              |  |              |  |  |  +**Cypretta_turgida
+|                           |  |  |  |                    |  |              |  |              |  +--|
+|                           |  |  |  |                    |  |              |  |              |     |      +**Cypridopsis_adusta
+|                           |  |  |  |                    |  |              |  |              |     |   +--|
+|                           |  |  |  |                    |  |              |  |              |     |   |  +--Cypridopsis_sp.
+|                           |  |  |  |                    |  |              |  |              |     +---|
+|                           |  |  |  |                    |  |              |  |              |         |        +**Cypridopsis_japonica
+|                           |  |  |  |                    |  |              |  |              |         |     +--|
+|                           |  |  |  |                    |  |              |  |              |         |     |  +**Cypridopsis_sp
+|                           |  |  |  |                    |  |              |  |              |         |  +--|
+|                           |  |  |  |                    |  |              |  |              |         |  |  +--Cypridopsis_vidua
+|                           |  |  |  |                    |  |              |  |              |         +--|
+|                           |  |  |  |                    |  |              |  |              |            +--Cypridopsis_uenoi
+|                           |  |  |  |                    |  |              |  |           +--|
+|                           |  |  |  |                    |  |              |  |           |  |  +--Dolerocypris_ikeyai
+|                           |  |  |  |                    |  |              |  |           |  +--|
+|                           |  |  |  |                    |  |              |  |           |     +--Dolerocypris_sinensis
+|                           |  |  |  |                    |  |              |  |        +--|
+|                           |  |  |  |                    |  |              |  |        |  |     +--Chrissia_dongqianhuensis
+|                           |  |  |  |                    |  |              |  |        |  |  +--|
+|                           |  |  |  |                    |  |              |  |        |  |  |  +--Stenocypris_derupta
+|                           |  |  |  |                    |  |              |  |        |  +--|
+|                           |  |  |  |                    |  |              |  |        |     +--Stenocypris_sp.
+|                           |  |  |  |                    |  |              |  |     +--|
+|                           |  |  |  |                    |  |              |  |     |  |     +**Cyprididae_gen._sp.
+|                           |  |  |  |                    |  |              |  |     |  |  +--|
+|                           |  |  |  |                    |  |              |  |     |  |  |  |  +--Manuelcypris_chetumalensis
+|                           |  |  |  |                    |  |              |  |     |  |  |  +--|
+|                           |  |  |  |                    |  |              |  |     |  |  |     +--Manuelcypris_tabascena
+|                           |  |  |  |                    |  |              |  |     |  +--|
+|                           |  |  |  |                    |  |              |  |     |     |           +--Cyprinotus_sp.
+|                           |  |  |  |                    |  |              |  |     |     |        +**|
+|                           |  |  |  |                    |  |              |  |     |     |        |  +--Eucypris_pigra
+|                           |  |  |  |                    |  |              |  |     |     |     +--|
+|                           |  |  |  |                    |  |              |  |     |     |     |  +--Eucypris_sp.
+|                           |  |  |  |                    |  |              |  |     |     |  +--|
+|                           |  |  |  |                    |  |              |  |     |     |  |  +--Heterocypris_salina
+|                           |  |  |  |                    |  |              |  |     |     +--|
+|                           |  |  |  |                    |  |              |  |     |        |  +---Heterocypris_barbara
+|                           |  |  |  |                    |  |              |  |     |        +--|
+|                           |  |  |  |                    |  |              |  |     |           |        +--Heterocypris_cf._incongruens_AG-2007
+|                           |  |  |  |                    |  |              |  |     |           |     +--|
+|                           |  |  |  |                    |  |              |  |     |           |     |  +--Heterocypris_incongruens
+|                           |  |  |  |                    |  |              |  |     |           |  +--|
+|                           |  |  |  |                    |  |              |  |     |           |  |  +--Heterocypris_sp
+|                           |  |  |  |                    |  |              |  |     |           +--|
+|                           |  |  |  |                    |  |              |  |     |              |  +--Heterocypris_sp.
+|                           |  |  |  |                    |  |              |  |     |              +--|
+|                           |  |  |  |                    |  |              |  |     |                 +--Heterocypris_vandouwei
+|                           |  |  |  |                    |  |              |  |  +--|
+|                           |  |  |  |                    |  |              |  |  |  +----Strandesia_lansactohai
+|                           |  |  |  |                    |  |              |  +--|
+|                           |  |  |  |                    |  |              |     |  +--Stenocypria_sp.
+|                           |  |  |  |                    |  |              |     +--|
+|                           |  |  |  |                    |  |              |        +--Stenocypris_major
+|                           |  |  |  |                    |  |           +--|
+|                           |  |  |  |                    |  |           |  |           +--Bennelongia_ivanae
+|                           |  |  |  |                    |  |           |  |        +--|
+|                           |  |  |  |                    |  |           |  |        |  +-----Bennelongia_mckenziei
+|                           |  |  |  |                    |  |           |  |     +--|
+|                           |  |  |  |                    |  |           |  |     |  |     +---Bennelongia_nimala
+|                           |  |  |  |                    |  |           |  |     |  |  +--|
+|                           |  |  |  |                    |  |           |  |     |  |  |  +-----Bennelongia_timmsi
+|                           |  |  |  |                    |  |           |  |     |  +--|
+|                           |  |  |  |                    |  |           |  |     |     |  +--------Prionocypris_aragonica
+|                           |  |  |  |                    |  |           |  |     |     +--|
+|                           |  |  |  |                    |  |           |  |     |        +----Strandesia_velhoi
+|                           |  |  |  |                    |  |           |  |  +--|
+|                           |  |  |  |                    |  |           |  |  |  |           +**Dolerocypria_mukaishimensis
+|                           |  |  |  |                    |  |           |  |  |  |        +--|
+|                           |  |  |  |                    |  |           |  |  |  |        |  +--Dolerocypria_sp.
+|                           |  |  |  |                    |  |           |  |  |  |     +--|
+|                           |  |  |  |                    |  |           |  |  |  |     |  +--Dolerocypria_taalensis
+|                           |  |  |  |                    |  |           |  |  |  |  +--|
+|                           |  |  |  |                    |  |           |  |  |  |  |  |  +---Paracypria_longiseta
+|                           |  |  |  |                    |  |           |  |  |  |  |  +--|
+|                           |  |  |  |                    |  |           |  |  |  |  |     +-------Paracypria_plumosa
+|                           |  |  |  |                    |  |           |  |  |  +--|
+|                           |  |  |  |                    |  |           |  |  |     |   +--Mangalocypria_ryukyuensis
+|                           |  |  |  |                    |  |           |  |  |     +---|
+|                           |  |  |  |                    |  |           |  |  |         +--Mangalocypria_sp.
+|                           |  |  |  |                    |  |           |  +--|
+|                           |  |  |  |                    |  |           |     |                    +**Cyclocypris_sp.
+|                           |  |  |  |                    |  |           |     |                 +--|
+|                           |  |  |  |                    |  |           |     |                 |  +--Cypria_sp.
+|                           |  |  |  |                    |  |           |     |              +--|
+|                           |  |  |  |                    |  |           |     |              |  |     +**Cypria_crenulata
+|                           |  |  |  |                    |  |           |     |              |  |  +**|
+|                           |  |  |  |                    |  |           |     |              |  |  |  +**Physocypria_sp.
+|                           |  |  |  |                    |  |           |     |              |  +--|
+|                           |  |  |  |                    |  |           |     |              |     +**Physocypria_cf._biwaensis_16_IK-2017
+|                           |  |  |  |                    |  |           |     |           +**|
+|                           |  |  |  |                    |  |           |     |           |  |     +**Physocypria_biwaensis
+|                           |  |  |  |                    |  |           |     |           |  |  +--|
+|                           |  |  |  |                    |  |           |     |           |  |  |  +**Physocypria_cf._biwaensis_7_IK-2017
+|                           |  |  |  |                    |  |           |     |           |  +--|
+|                           |  |  |  |                    |  |           |     |           |     +**Physocypria_cf._biwaensis_27_IK-2017
+|                           |  |  |  |                    |  |           |     |        +--|
+|                           |  |  |  |                    |  |           |     |        |  +**Physocypria_cf._biwaensis_32_IK-2017
+|                           |  |  |  |                    |  |           |     |     +--|
+|                           |  |  |  |                    |  |           |     |     |  +**Physocypria_kraepelini
+|                           |  |  |  |                    |  |           |     |  +--|
+|                           |  |  |  |                    |  |           |     |  |  |  +**Cypria_exsculpta
+|                           |  |  |  |                    |  |           |     |  |  +--|
+|                           |  |  |  |                    |  |           |     |  |     +--Physocypria_nipponica
+|                           |  |  |  |                    |  |           |     +--|
+|                           |  |  |  |                    |  |           |        +--Cypria_ophtalmica
+|                           |  |  |  |                    |  |        +--|
+|                           |  |  |  |                    |  |        |  |  +----Strandesia_nupelia
+|                           |  |  |  |                    |  |        |  +--|
+|                           |  |  |  |                    |  |        |     +-----Strandesia_obtusata
+|                           |  |  |  |                    |  |     +--|
+|                           |  |  |  |                    |  |     |  |     +**Ilyocypris_angulata
+|                           |  |  |  |                    |  |     |  |  +--|
+|                           |  |  |  |                    |  |     |  |  |  +**Ilyocypris_sp
+|                           |  |  |  |                    |  |     |  +--|
+|                           |  |  |  |                    |  |     |     |  +**Ilyocypris_japonica
+|                           |  |  |  |                    |  |     |     +--|
+|                           |  |  |  |                    |  |     |        +**Ilyocypris_sp.
+|                           |  |  |  |                    |  |  +--|
+|                           |  |  |  |                    |  |  |  |  +----------Macromckenziea_aff._giambonini_SNB-2010
+|                           |  |  |  |                    |  |  |  +--|
+|                           |  |  |  |                    |  |  |     |  +--------Macromckenziea_glacierae
+|                           |  |  |  |                    |  |  |     +--|
+|                           |  |  |  |                    |  |  |        |           +--Macroscapha_aff._walterae_SNB-2010
+|                           |  |  |  |                    |  |  |        |        +--|
+|                           |  |  |  |                    |  |  |        |        |  +--Macroscapha_walterae
+|                           |  |  |  |                    |  |  |        |     +--|
+|                           |  |  |  |                    |  |  |        |     |  +--Macroscapha_inaequata
+|                           |  |  |  |                    |  |  |        |  +--|
+|                           |  |  |  |                    |  |  |        |  |  +--Macroscapha_turbida
+|                           |  |  |  |                    |  |  |        +--|
+|                           |  |  |  |                    |  |  |           |     +--Macroscapha_falcis
+|                           |  |  |  |                    |  |  |           |  +--|
+|                           |  |  |  |                    |  |  |           |  |  +--Macroscapha_solecavai
+|                           |  |  |  |                    |  |  |           +--|
+|                           |  |  |  |                    |  |  |              +--Macroscapha_opaca
+|                           |  |  |  |                    |  +--|
+|                           |  |  |  |                    |     +-------Notodromas_monacha
+|                           |  |  |  |                 +--|
+|                           |  |  |  |                 |  +--------------------------------Prionocypris_zenkeri
+|                           |  |  |  |              +--|
+|                           |  |  |  |              |  +---Macrocyprididae_sp.
+|                           |  |  |  |           +--|
+|                           |  |  |  |           |  +--Pontocyprididae_sp.
+|                           |  |  |  |        +--|
+|                           |  |  |  |        |  |   +--Macrocypris_sp
+|                           |  |  |  |        |  +---|
+|                           |  |  |  |        |      +--Macrocypris_sp.
+|                           |  |  |  |     +--|
+|                           |  |  |  |     |  |           +--Bairdiocopina_sp.
+|                           |  |  |  |     |  |        +--|
+|                           |  |  |  |     |  |        |  +--Propontocypris_sp1
+|                           |  |  |  |     |  |     +--|
+|                           |  |  |  |     |  |     |  |  +--Propontocypris_pirifera
+|                           |  |  |  |     |  |     |  +--|
+|                           |  |  |  |     |  |     |     +--Propontocypris_sp2
+|                           |  |  |  |     |  +-----|
+|                           |  |  |  |     |        +--Pontocypris_mytiloides
+|                           |  |  |  |  +--|
+|                           |  |  |  |  |  |       +------Metaconchoecia_longiseta
+|                           |  |  |  |  |  +-------|
+|                           |  |  |  |  |          +----Metaconchoecia_rotundata
+|                           |  |  |  +--|
+|                           |  |  |     |  +--Cytherellidae_sp.
+|                           |  |  |     +--|
+|                           |  |  |        |        +--Cytheroidea_sp.
+|                           |  |  |        |     +--|
+|                           |  |  |        |     |  +--Xestoleberididae_sp.
+|                           |  |  |        |  +--|
+|                           |  |  |        |  |  +--Loxoconchidae_sp.
+|                           |  |  |        +--|
+|                           |  |  |           |  +--Cytheromatidae_sp.
+|                           |  |  |           +--|
+|                           |  |  |              +--Paradoxostomatidae_sp.
+|                           |  +--|
+|                           |     +--Bairdiidae_sp.
+|                        +--|
+|                        |  |          +--------Paracobanocythere_grandis
+|                        |  +----------|
+|                        |             |    +------Paracobanocythere_sp.
+|                        |             +----|
+|                        |                  +--------Paracobanocythere_watanabei
+|                     +--|
+|                     |  |                              +--Actinoseta_jonesi
+|                     |  |                           +--|
+|                     |  |                           |  |  +--Asteropella_slatteryi
+|                     |  |                           |  +--|
+|                     |  |                           |     +--Asteropella_sp.
+|                     |  |                        +--|
+|                     |  |                        |  +--Asteropterygion_magnum
+|                     |  |                     +--|
+|                     |  |                     |  +---Asteropella_monambon
+|                     |  |                  +--|
+|                     |  |                  |  +--Tetraleberis_sp.
+|                     |  |               +--|
+|                     |  |               |  |  +--Leuroleberis_mackenziei
+|                     |  |               |  +--|
+|                     |  |               |     +------------Leuroleberis_surugaensis
+|                     |  |            +--|
+|                     |  |            |  |                 +--Archasterope_bulla
+|                     |  |            |  |              +--|
+|                     |  |            |  |              |  |     +--Archasterope_efficax
+|                     |  |            |  |              |  |  +--|
+|                     |  |            |  |              |  |  |  +--Bathyleberis_oculata
+|                     |  |            |  |              |  +--|
+|                     |  |            |  |              |     +--Archasterope_sp.
+|                     |  |            |  |           +--|
+|                     |  |            |  |           |  |  +--Cylindroleberis_marranyin
+|                     |  |            |  |           |  +--|
+|                     |  |            |  |           |     |  +--Cylindroleberis_sp.
+|                     |  |            |  |           |     +--|
+|                     |  |            |  |           |        +--Parasterope_sp.
+|                     |  |            |  |        +--|
+|                     |  |            |  |        |  |     +--Parasterope_gamurru
+|                     |  |            |  |        |  |  +--|
+|                     |  |            |  |        |  |  |  +--Synasterope_sp.
+|                     |  |            |  |        |  +--|
+|                     |  |            |  |        |     +--Parasterope_styx
+|                     |  |            |  |     +--|
+|                     |  |            |  |     |  |  +--Cylindroleberididae_sp.
+|                     |  |            |  |     |  +--|
+|                     |  |            |  |     |     +--Skogsbergiella_sp.
+|                     |  |            |  |  +--|
+|                     |  |            |  |  |  |  +--Postasterope_barnesi
+|                     |  |            |  |  |  +--|
+|                     |  |            |  |  |     +--Postasterope_corrugata
+|                     |  |            |  +--|
+|                     |  |            |     +--Parasterope_pollex
+|                     |  |         +--|
+|                     |  |         |  |  +---Azygocypridina_lowryi
+|                     |  |         |  +--|
+|                     |  |         |     |               +---------Cypridina_noctiluca
+|                     |  |         |     |           +---|
+|                     |  |         |     |           |   +----------------Cypridinodes_sp.
+|                     |  |         |     |        +--|
+|                     |  |         |     |        |  |     +--------Paradoloria_pellucida
+|                     |  |         |     |        |  |  +--|
+|                     |  |         |     |        |  |  |  +---------Skogsbergia_sp.
+|                     |  |         |     |        |  +--|
+|                     |  |         |     |        |     +--------------Paravargula_sp.
+|                     |  |         |     |     +--|
+|                     |  |         |     |     |  +----Melavargula_japonica
+|                     |  |         |     |  +--|
+|                     |  |         |     |  |  +--Skogsbergia_lerneri
+|                     |  |         |     +--|
+|                     |  |         |        |     +--Vargula_hilgendorfii
+|                     |  |         |        |  +--|
+|                     |  |         |        |  |  +--Vargula_tsujii
+|                     |  |         |        +--|
+|                     |  |         |           +-------------Vargula_sp.
+|                     |  |     +---|
+|                     |  |     |   |           +-----Cypridina_dentata
+|                     |  |     |   |        +--|
+|                     |  |     |   |        |  |    +--Gigantocypris_dracontovalis
+|                     |  |     |   |        |  +----|
+|                     |  |     |   |        |       +--Gigantocypris_muelleri
+|                     |  |     |   |     +--|
+|                     |  |     |   |     |  |           +--Euphilomedes_cacharodonta
+|                     |  |     |   |     |  |        +--|
+|                     |  |     |   |     |  |        |  +--Euphilomedes_sp.
+|                     |  |     |   |     |  |     +--|
+|                     |  |     |   |     |  |     |  +--Euphilomedes_morini
+|                     |  |     |   |     |  |  +--|
+|                     |  |     |   |     |  |  |  |  +------------Euphilomedes_japonica
+|                     |  |     |   |     |  |  |  +--|
+|                     |  |     |   |     |  |  |     +--Euphilomedes_sordida
+|                     |  |     |   |     |  +**|
+|                     |  |     |   |     |     |  +**Rutiderma_apex
+|                     |  |     |   |     |     +--|
+|                     |  |     |   |     |        +**Rutidermatidae_sp.
+|                     |  |     |   |  +--|
+|                     |  |     |   |  |  |        +------Eurypylus_koreanus
+|                     |  |     |   |  |  |     +--|
+|                     |  |     |   |  |  |     |  |     +------Eusarsiella_cornuta
+|                     |  |     |   |  |  |     |  |  +--|
+|                     |  |     |   |  |  |     |  |  |  +------Eusarsiella_hanguk
+|                     |  |     |   |  |  |     |  +--|
+|                     |  |     |   |  |  |     |     +-----Sarsiella_japonica
+|                     |  |     |   |  |  |  +--|
+|                     |  |     |   |  |  |  |  |     +--Eusarsiella_sp
+|                     |  |     |   |  |  |  |  |  +--|
+|                     |  |     |   |  |  |  |  |  |  |  +**Eusarsiella_sp.
+|                     |  |     |   |  |  |  |  |  |  +--|
+|                     |  |     |   |  |  |  |  |  |     +**Sarsiellidae_sp.
+|                     |  |     |   |  |  |  |  +--|
+|                     |  |     |   |  |  |  |     +--Sarsiella_misakiensis
+|                     |  |     |   |  |  +--|
+|                     |  |     |   |  |     +--Philomedes_sp.
+|                     |  |     |   +--|
+|                     |  |     |      |  +--Harbansus_paucichelatus
+|                     |  |     |      +--|
+|                     |  |     |         +--Philomedidae_sp.
+|                     |  |  +--|
+|                     |  |  |  |                  +--Conchoecia_sp
+|                     |  |  |  |               +--|
+|                     |  |  |  |               |  +--Conchoecia_sp.
+|                     |  |  |  |     +---------|
+|                     |  |  |  |     |         +-------------Conchoecissa_sp
+|                     |  |  |  |  +--|
+|                     |  |  |  |  |  +------------Hutchinsoniella_macracantha
+|                     |  |  |  +--|
+|                     |  |  |     |             +--Kliecope_mihoensis
+|                     |  |  |     |          +--|
+|                     |  |  |     |          |  +--Kliecope_oligohalina
+|                     |  |  |     |       +--|
+|                     |  |  |     |       |  |           +--Parapolycope_digitolabrum
+|                     |  |  |     |       |  |        +--|
+|                     |  |  |     |       |  |        |  +--Parapolycope_uncata
+|                     |  |  |     |       |  |     +--|
+|                     |  |  |     |       |  |     |  +--Parapolycope_psittacina
+|                     |  |  |     |       |  |  +--|
+|                     |  |  |     |       |  |  |  |           +--Parapolycope_setouchiensis
+|                     |  |  |     |       |  |  |  |        +--|
+|                     |  |  |     |       |  |  |  |        |  +-------Parapolycope_sp.
+|                     |  |  |     |       |  |  |  |     +--|
+|                     |  |  |     |       |  |  |  |     |  +--Parapolycope_spiralis
+|                     |  |  |     |       |  |  |  |  +--|
+|                     |  |  |     |       |  |  |  |  |  |  +--Parapolycope_viriosa
+|                     |  |  |     |       |  |  |  |  |  +--|
+|                     |  |  |     |       |  |  |  |  |     +--Parapolycope_watanabei
+|                     |  |  |     |       |  |  |  +--|
+|                     |  |  |     |       |  |  |     +--Parapolycope_widoensis
+|                     |  |  |     |       |  +--|
+|                     |  |  |     |       |     |     +**Parapolycope_japonica
+|                     |  |  |     |       |     |  +--|
+|                     |  |  |     |       |     |  |  +**Polycope_japonica
+|                     |  |  |     |       |     +--|
+|                     |  |  |     |       |        |  +--Parapolycope_miurens
+|                     |  |  |     |       |        +--|
+|                     |  |  |     |       |           +--Parapolycope_subtidalis
+|                     |  |  |     +-------|
+|                     |  |  |             |        +--Polycope_pseudoinornata
+|                     |  |  |             |     +--|
+|                     |  |  |             |     |  |  +--Polycope_punctata
+|                     |  |  |             |     |  +--|
+|                     |  |  |             |     |     +---Polycope_yasuharai
+|                     |  |  |             |  +--|
+|                     |  |  |             |  |  |     +--Polycope_sp
+|                     |  |  |             |  |  |  +--|
+|                     |  |  |             |  |  |  |  +--Polycope_sp.
+|                     |  |  |             |  |  +--|
+|                     |  |  |             |  |     +---Polycopetta_quadrispinata
+|                     |  |  |             +--|
+|                     |  |  |                +----Polycopiella_sp.
+|                     |  +--|
+|                     |     |                                +----Alacia_alata
+|                     |     |                             +--|
+|                     |     |                             |  |  +----Orthoconchoecia_bispinosa
+|                     |     |                             |  +--|
+|                     |     |                             |     |  +-----Orthoconchoecia_haddoni
+|                     |     |                             |     +--|
+|                     |     |                             |        +--Orthoconchoecia_secernenda
+|                     |     |                          +--|
+|                     |     |                          |  |           +--Boroecia_antipoda
+|                     |     |                          |  |        +--|
+|                     |     |                          |  |        |  +--Boroecia_borealis
+|                     |     |                          |  |     +--|
+|                     |     |                          |  |     |  +--Boroecia_maxima
+|                     |     |                          |  |  +--|
+|                     |     |                          |  |  |  |           +-----Conchoecissa_symmetrica
+|                     |     |                          |  |  |  |        +--|
+|                     |     |                          |  |  |  |        |  +-----Gaussicia_incisa
+|                     |     |                          |  |  |  |     +--|
+|                     |     |                          |  |  |  |     |  +------Loricoecia_acutimarginata
+|                     |     |                          |  |  |  |  +--|
+|                     |     |                          |  |  |  |  |  |  +--Mollicia_kampta
+|                     |     |                          |  |  |  |  |  +--|
+|                     |     |                          |  |  |  |  |     +--Mollicia_mollis
+|                     |     |                          |  |  |  +--|
+|                     |     |                          |  |  |     |  +--Paramollicia_dichotoma
+|                     |     |                          |  |  |     +--|
+|                     |     |                          |  |  |        +--Paramollicia_major
+|                     |     |                          |  +--|
+|                     |     |                          |     +---Mollicia_tyloda
+|                     |     |                       +--|
+|                     |     |                       |  |  +---Conchoecissa_ametra
+|                     |     |                       |  +--|
+|                     |     |                       |     +----Conchoecissa_imbricata
+|                     |     |                    +--|
+|                     |     |                    |  |  +---Discoconchoecia_elegans
+|                     |     |                    |  +--|
+|                     |     |                    |     +--Discoconchoecia_sp.
+|                     |     |                 +--|
+|                     |     |                 |  |          +**Discoconchoecia_aff._elegans_CMARA05309_Os109.1.1
+|                     |     |                 |  |     +----|
+|                     |     |                 |  |     |    +**Discoconchoecia_aff._elegans_CMARA05509_Os109.1.3
+|                     |     |                 |  |  +--|
+|                     |     |                 |  |  |  +----Porroecia_spinirostris
+|                     |     |                 |  +--|
+|                     |     |                 |     |  +---Macroconchoecia_macroreticulata
+|                     |     |                 |     +--|
+|                     |     |                 |        +---Macroconchoecia_spinireticulata
+|                     |     |              +--|
+|                     |     |              |  |     +--Conchoecetta_acuminata
+|                     |     |              |  |  +--|
+|                     |     |              |  |  |  +---Conchoecetta_giesbrechti
+|                     |     |              |  +--|
+|                     |     |              |     |        +---Conchoecilla_chuni
+|                     |     |              |     |     +--|
+|                     |     |              |     |     |  +-----Conchoecilla_daphnoides
+|                     |     |              |     |  +--|
+|                     |     |              |     |  |  +------Paraconchoecia_dasyophthalma
+|                     |     |              |     +--|
+|                     |     |              |        |        +--Deeveyoecia_arcuata
+|                     |     |              |        |  +-----|
+|                     |     |              |        |  |     +--Metaconchoecia_arcuata
+|                     |     |              |        +--|
+|                     |     |              |           +-----Paraconchoecia_dorsotuberculata
+|                     |     |           +--|
+|                     |     |           |  |  +---Discoconchoecia_discophora
+|                     |     |           |  +--|
+|                     |     |           |     +-----Proceroecia_brachyaskos
+|                     |     |        +--|
+|                     |     |        |  |                    +-----Alacia_valdiviae
+|                     |     |        |  |                 +--|
+|                     |     |        |  |                 |  +----Halocypria_globosa
+|                     |     |        |  |              +--|
+|                     |     |        |  |              |  |  +-----Chavturia_abyssopelagica
+|                     |     |        |  |              |  +--|
+|                     |     |        |  |              |     +---Fellia_cornuta
+|                     |     |        |  |           +--|
+|                     |     |        |  |           |  |        +**Halocypris_aff._angustifrontalis_Os097.1.1
+|                     |     |        |  |           |  |     +--|
+|                     |     |        |  |           |  |     |  +--Halocypris_aff._angustifrontalis_Os097.1.3
+|                     |     |        |  |           |  |  +--|
+|                     |     |        |  |           |  |  |  +**Halocypris_aff._angustifrontalis_Os097.1.2
+|                     |     |        |  |           |  +--|
+|                     |     |        |  |           |     +--Halocypris_inflata
+|                     |     |        |  |        +--|
+|                     |     |        |  |        |  |         +--Archiconchoecetta_bimucronata
+|                     |     |        |  |        |  |     +---|
+|                     |     |        |  |        |  |     |   +------Archiconchoecetta_bispicula
+|                     |     |        |  |        |  |  +--|
+|                     |     |        |  |        |  |  |  |  +---Archiconchoecia_striata
+|                     |     |        |  |        |  |  |  +--|
+|                     |     |        |  |        |  |  |     +-------Archiconchoecissa_pljusnini
+|                     |     |        |  |        |  +--|
+|                     |     |        |  |        |     +-----Archiconchoecia_versicula
+|                     |     |        |  |     +--|
+|                     |     |        |  |     |  |        +-----Austrinoecia_isocheira
+|                     |     |        |  |     |  |     +--|
+|                     |     |        |  |     |  |     |  +------Pseudoconchoecia_serrulata
+|                     |     |        |  |     |  |  +--|
+|                     |     |        |  |     |  |  |  +----Clausoecia_pusilla
+|                     |     |        |  |     |  +--|
+|                     |     |        |  |     |     |       +---Proceroecia_microprocera
+|                     |     |        |  |     |     |    +--|
+|                     |     |        |  |     |     |    |  +--Proceroecia_procera
+|                     |     |        |  |     |     +----|
+|                     |     |        |  |     |          +---Proceroecia_sp.
+|                     |     |        |  |  +--|
+|                     |     |        |  |  |  |              +--Conchoecia_hyalophyllum
+|                     |     |        |  |  |  |           +--|
+|                     |     |        |  |  |  |           |  +--Conchoecia_magna
+|                     |     |        |  |  |  |        +--|
+|                     |     |        |  |  |  |        |  |          +--Metaconchoecia_skogsbergi
+|                     |     |        |  |  |  |        |  |     +----|
+|                     |     |        |  |  |  |        |  |     |    +--Obtusoecia_antarctica
+|                     |     |        |  |  |  |        |  |  +--|
+|                     |     |        |  |  |  |        |  |  |  +----Paraconchoecia_echinata
+|                     |     |        |  |  |  |        |  +--|
+|                     |     |        |  |  |  |        |     |     +--Mikroconchoecia_curta
+|                     |     |        |  |  |  |        |     |  +--|
+|                     |     |        |  |  |  |        |     |  |  +--Mikroconchoecia_sp.
+|                     |     |        |  |  |  |        |     +--|
+|                     |     |        |  |  |  |        |        +---Mikroconchoecia_stigmatica
+|                     |     |        |  |  |  |     +--|
+|                     |     |        |  |  |  |     |  |  +---Nasoecia_nasotuberculata
+|                     |     |        |  |  |  |     |  +--|
+|                     |     |        |  |  |  |     |     +---Paraconchoecia_oblonga
+|                     |     |        |  |  |  |  +--|
+|                     |     |        |  |  |  |  |  |          +--Euconchoecia_cf._chierchiae_S15-D7
+|                     |     |        |  |  |  |  |  |     +----|
+|                     |     |        |  |  |  |  |  |     |    +--Euconchoecia_chierchiae
+|                     |     |        |  |  |  |  |  |  +--|
+|                     |     |        |  |  |  |  |  |  |  |      +---Porroecia_parthenoda
+|                     |     |        |  |  |  |  |  |  |  +------|
+|                     |     |        |  |  |  |  |  |  |         +--Porroecia_sp.
+|                     |     |        |  |  |  |  |  +--|
+|                     |     |        |  |  |  |  |     +---Kyrtoecia_kyrtophora
+|                     |     |        |  |  |  +--|
+|                     |     |        |  |  |     |        +--Metaconchoecia_acuta
+|                     |     |        |  |  |     |     +--|
+|                     |     |        |  |  |     |     |  |       +--Metaconchoecia_aff._skogsbergi_Os072.1.1
+|                     |     |        |  |  |     |     |  |    +**|
+|                     |     |        |  |  |     |     |  |    |  +**Metaconchoecia_aff._skogsbergi_Os072.1.3
+|                     |     |        |  |  |     |     |  +----|
+|                     |     |        |  |  |     |     |       +**Metaconchoecia_aff._skogsbergi_Os072.1.2
+|                     |     |        |  |  |     |  +--|
+|                     |     |        |  |  |     |  |  +-----Rotundoecia_teretivalvata
+|                     |     |        |  |  |     +--|
+|                     |     |        |  |  |        |  +---Metaconchoecia_inflata
+|                     |     |        |  |  |        +--|
+|                     |     |        |  |  |           +----Metaconchoecia_subinflata
+|                     |     |        |  +--|
+|                     |     |        |     |     +----Conchoecia_macrocheira
+|                     |     |        |     |  +--|
+|                     |     |        |     |  |  |    +--Mamilloecia_mamillata
+|                     |     |        |     |  |  +----|
+|                     |     |        |     |  |       +--Paraconchoecia_mamillata
+|                     |     |        |     +--|
+|                     |     |        |        |  +----Paraconchoecia_aequiseta
+|                     |     |        |        +--|
+|                     |     |        |           +---Paraconchoecia_allotherium
+|                     |     |     +--|
+|                     |     |     |  |  +----Archiconchoecemma_simula
+|                     |     |     |  +--|
+|                     |     |     |     +----Paraconchoecia_cophopyga
+|                     |     +-----|
+|                     |           |     +--Alacia_belgicae
+|                     |           |  +--|
+|                     |           |  |  +--Alacia_hettacra
+|                     |           +--|
+|                     |              +------Orthoconchoecia_atlantica
+|                  +--|
+|                  |  +-------Manawa_staceyi
+|               +--|
+|               |  |     +--Argulus_sp
+|               |  |  +--|
+|               |  |  |  +---Armillifer_armillatus
+|               |  +--|
+|               |     |  +----Derocheilocaris_typicus
+|               |     +--|
+|               |        |  +--Limulus_polyphemus
+|               |        +--|
+|               |           +----Scutigera_coleoptrata
+|            +--|
+|            |  |           +--Artemia_franciscana
+|            |  |        +--|
+|            |  |        |  +--Artemia_salina
+|            |  |     +--|
+|            |  |     |  +--Streptocephalus_seali
+|            |  |  +--|
+|            |  |  |  |        +----Daphnia_pulex
+|            |  |  |  |     +--|
+|            |  |  |  |     |  +--Triops_longicaudatus
+|            |  |  |  |  +--|
+|            |  |  |  |  |  +--Limnadia_lenticularis
+|            |  |  |  +--|
+|            |  |  |     +--Lynceus_sp
+|            |  +--|
+|            |     |  +--Orchesella_imitari
+|            |     +--|
+|            |        +--Tomocerus_sp
+|         +--|
+|         |  |     +---------Acyrthosiphon_pisum
+|         |  |  +--|
+|         |  |  |  |     +--Apis_mellifera
+|         |  |  |  |  +--|
+|         |  |  |  |  |  +--Periplaneta_americana
+|         |  |  |  +--|
+|         |  |  |     +--Tribolium_castaneum
+|         |  +--|
+|         |     +-----------Drosophila_melanogaster
+|     +---|
+|     |   |     +---------Armadillidium_vulgare
+|     |   |  +--|
+|     |   |  |  +---Nebalia_hessleri
+|     |   +--|
+|     |      |               +--Chthamalus_fragilis
+|     |      |            +--|
+|     |      |            |  +---Loxothylacus_texanus
+|     |      |         +--|
+|     |      |         |  +--Semibalanus_balanoides
+|     |      +---------|
+|     |                +--Lepas_anserifera
+|  +--|
+|  |  +---Calanus_finmarchicus
++--|
+|  |     +--Caligus_rogercresseyi
+|  |  +--|
+|  |  |  +--Lepeophtheirus_salmonis
+|  +--|
+|     +--Lernaeocera_branchialis
+|
++--Mesocyclops_edax
+
+Tree in newick format:
+
+(Acanthocyclops_vernalis:0.0308834901,(((((((((((((((((((((Actinocythereis_costata:0.0144101756,Hirsutocythere_hanaii:0.0024183416):0.0116876116,((((((Aurila_disparata:0.0022147972,Robustaurila_salebrosa:0.0038844769):0.0010337757,Coquimba_ishizakii:0.0089498345):0.0023204502,Caudites_asiaticus:0.0165316988):0.0032867901,Puriana_sp:0.0083698480):0.0103104073,(Bradleya_nuda:0.0077946107,Tenedocythere_transoceanica:0.0095112772):0.0046667454):0.0065801776,((Bicornucythere_bisanensis:0.0066720046,(Neomonoceratina_crispata:0.0056824254,Pistocythereis_bradyformis:0.0000022674):0.0074729972):0.0139679325,Trachyleberis_sp.:0.0182683544):0.0089649253):0.0023992609):0.0067048961,((Cythere_lutea:0.0203039748,((((((Krithe_angelikae:0.0443735066,Krithe_maxima:0.0263864098):0.0088581281,(Krithe_kamchatkaensis:0.0197589834,Krithe_rara:0.0214346000):0.0170848279):0.0136261389,Krithe_tsukagoshii:0.0354492897):0.0139891282,Krithe_cerritula:0.0326272974):0.0067687108,Parakrithella_pseudadonta:0.0230657769):0.0124286918,(Neomonoceratina_microreticulata:0.0302919248,Spinileberis_quadriaculeata:0.0106008608):0.0125717138):0.0146696819):0.0069216915,(Perissocytheridea_japonica:0.0146099977,(Pontocythere_sp.:0.0025989102,Pontocythere_subjaponica:0.0051681204):0.0057514214):0.0119552719):0.0028616458):0.0048965641,(Limnocythere_inopinata:0.0302723403,(Limnocythere_sp:0.0000021296,Limnocythere_sp.:0.0000020470):0.0091166979):0.0152648172):0.0036950534,(Cobanocythere_japonica:0.0106866520,(Xestoleberis_hanaii:0.0071008164,Xestoleberis_sp:0.0058811730):0.0072214444):0.0112861198):0.0053056662,((((Albileberis_sheyangensis:0.0029843037,Leptocythere_ventriclivosa:0.0182468323):0.0074429893,Leptocythere_lacertosa:0.0030720303):0.0028661433,(Ishizakiella_miurensis:0.0035801011,Tanella_opima:0.0109136282):0.0062820797):0.0273894850,(Cytheromorpha_acupunctata:0.0238204040,Loxocorniculum_mutsuense:0.0344472333):0.0326993656):0.0055463120):0.0178181697,(((Loxoconcha_sp.:0.0521630525,Neomonoceratina_sp.:0.0567506317):0.0140027946,Xestoleberis_sp.:0.0272611461):0.0247376998,Metacypris_digitiformis:0.0436205652):0.0066988740):0.0184673751,(Keijia_demissa:0.0153301192,Kotoracythere_inconspicua:0.0079446067):0.0144727906):0.0082140689,(Cytheropteron_subuchioi:0.0389439388,(((Hemicytherura_kajiyamai:0.0345434555,Semicytherura_striata:0.0198184997):0.0062192818,Howeina_sp.:0.0071676005):0.0364568832,((Paradoxostoma_setoense:0.0249712655,Paradoxostoma_sp:0.0357591327):0.0111822033,Xiphichilus_sp.:0.0216238797):0.0095219392):0.0066977059):0.0123524485):0.0302518102,((((Archaeocyprideis_tuberculata:0.0125637406,(((Cyprideis_cf._australiensis_IS-2016:0.0796583271,(((Romecytheridea_ampla:0.0813881902,Romecytheridea_bacata:0.0478753216):0.0261129879,Romecytheridea_longior:0.0598612313):0.0266253650,(Tanganyikacythere_burtonensis:0.0767644594,Tanganyikacythere_caljoni:0.0568526518):0.0238290762):0.0198015123):0.0329292770,(Cyprideis_torosa:0.1004472140,(Mesocyprideis_irsacae:0.0714511489,Mesocyprideis_pila:0.0174831829):0.0298846602):0.0341855037):0.0243473412,(Cyprideis_spatula:0.0092014741,Romecytheridea_tenuisculpta:0.0525767409):0.0137040467):0.0169564600):0.0066196981,Mesocyprideis_sp.:0.0151815591):0.0216130467,Kavalacythereis_braconensis:0.0736213189):0.0517512933,((((((Cytherissa_crepera:0.0820375885,Cytherissa_cytheriformis:0.0883480543):0.0312506198,Cytherissa_elongata:0.0483338092):0.0125735933,((Cytherissa_donquixotei:0.0530241571,Cytherissa_verrucosa:0.0323710815):0.0162515053,Cytherissa_parva:0.0415353262):0.0078705321):0.0081276399,((((Cytherissa_excelsiformis:0.0413865962,((Cytherissa_lata:0.0230818925,Cytherissa_triangulata:0.1002134001):0.0213722803,Cytherissa_tuberculata:0.0437022834):0.0111029093):0.0078515367,((Cytherissa_parallela:0.0261674331,Cytherissa_plena:0.1100588881):0.0152879095,Cytherissa_truncata:0.0543232038):0.0173630822):0.0073512240,Cytherissa_interposita:0.0366964938):0.0069481210,Cytherissa_sernovi:0.0425022852):0.0081457372):0.0088956957,((((Cytherissa_glomerata:0.0986419972,Cytherissa_sinistrodentata:0.0317050738):0.0531278328,Cytherissa_lacustris:0.0019790271):0.0399356927,Cytherissa_sp.:0.0230945653):0.0156346457,Cytherissa_pusilla:0.0505533942):0.0114573683):0.0143641217,(Cytherissa_golyschkinae:0.0332719464,Cytherissa_pterygota:0.0421032881):0.0113133361):0.2226882223):0.1921156422):0.0175227387,(Bythoceratina_hanejiensis:0.0414716023,(Psammocythere_oviformis:0.0347509064,(Schlerochilus_oshoroensis:0.0275570677,Uncinocythere_occidentalis:0.0187629634):0.0348312727):0.0086672082):0.0106036060):0.0254096470,((((((((Alicenula_inversa:0.1334947406,((Darwinula_brasiliensis:0.1559120095,Microdarwinula_zimmeri:0.0833497565):0.0356883479,Penthesilenula_kohanga:0.1693863366):0.0439784640):0.0378968435,((Vestalenula_marmonieri:0.0646644959,Vestalenula_molopoensis:0.0485802271):0.0171346398,Vestalenula_matildae:0.0456868378):0.0668113049):0.0868543398,((Darwinula_sp:0.0200288945,Vestalenula_sp:0.0120402865):0.0120624801,((Darwinula_sp.:0.0050292779,Darwinula_stevensoni:0.0008139005):0.0000021003,Vestalenula_sp.:0.0045630370):0.0230278014):0.0011376302):0.0529163085,(((((Cytherella_leizhouensis:0.0019534320,Cytherelloidea_munechikai:0.0013930919):0.0021655024,Keijcyoidea_sp.:0.0059511842):0.0012619376,Cytherelloidea_sp:0.0063198412):0.0000010855,Vestalenula_brasiliensis:0.1569359359):0.0143221071,Cytherelloidea_californica:0.0102082641):0.0437414972):0.0290560549,(((Bairdia_sp.:0.0040512773,Neonesidea_haikangensis:0.0197782351):0.0023031683,(Nenesidea_oligodentata:0.0000021296,Neonesidea_oligodentata:0.0000021296):0.0015133310):0.0120216137,Neonesidea_sp:0.0209404536):0.0343902491):0.0136851248,Terrestricythere_pratensis:0.0732272713):0.0220280248,((((((((((((((((((((((((Baicalocandona_navitarum:0.0374992249,Candona_orbiculata:0.0117141794):0.0274913025,Candona_godlewski:0.0187288084):0.0006065330,Fabaeformiscandona_protzi:0.0980690105):0.0274318530,(Candona_directa:0.0023941663,Candoninae_sp.:0.0067711786):0.0113385208):0.0091679750,((Candona_quasiakaina:0.0004595794,Typhlocypris_choi:0.0167267792):0.0212475022,Candona_spicata:0.0049962036):0.0152456339):0.0119159423,Fabaeformiscandona_acuminata:0.0742663284):0.0015885147,Fabaeformiscandona_kushiroensis:0.0252635431):0.0086021882,Candona_rupestris:0.0717039893):0.0080169074,((Candona_bimucronata:0.2256393591,(Candona_neglecta:0.0425159602,Fabaeformiscandona_brevicornis:0.1145927707):0.0039007876):0.0278977658,Candona_candida:0.0410503309):0.0124999926):0.0232210987,(((Candona_holzkampfi:0.0555405198,(Fabaeformiscandona_sp.:0.0000028113,Fabaeformiscandona_subacuta:0.0000021296):0.0035006781):0.0065233035,Earicandona_mounchyon:0.0070013059):0.0164800250,Fabaeformiscandona_fabaeformis:0.0385877714):0.0282900726):0.0198136981,((((Candonopsis_kingsleii:0.1214044358,Fabaeformiscandona_fragilis:0.1220470950):0.0302757771,Nannocandona_faba:0.1026337069):0.0476877454,Pseudocandona_compressa:0.0909708047):0.0279806685,(((((Pseudocandona_albicans:0.0007339237,Pseudocandona_insculpta:0.0000552530):0.0063164942,Pseudocandona_regisnikolai:0.1221816728):0.0543875805,((Pseudocandona_marchica:0.0748116627,Typhlocypris_cavicola:0.0864668991):0.0285944222,(Pseudocandona_pratensis:0.0043676507,Pseudocandona_sp.:0.0531008389):0.0000666711):0.0128854029):0.0179638177,(Pseudocandona_hartwigi:0.0079294050,Pseudocandona_tenuirostris:0.0106125089):0.0166615509):0.0116949080,((Typhlocypris_eremita:0.0560433376,Typhlocypris_sywulai:0.0326124924):0.0207708360,Typhlocypris_sp.:0.0214532263):0.0387549297):0.0105367769):0.0202667197):0.0237188289,Cryptocandona_smithi:0.0348341823):0.0151404153,Candona_weltneri:0.0967720586):0.0032924960,Candonopsis_transgrediens:0.0539036868):0.0153143040,(((((Cryptocandona_sp.:0.0006400005,Cryptocandona_vavrai:0.0000027045):0.0371869243,Trapezicandona_sp.:0.0394551254):0.0017643956,Mixtacandona_sp.:0.0830935448):0.0131406629,(Pilbaracandona_eberhardi:0.0378270155,((Undulacandona_aeolus:0.0136926608,Undulacandona_koreana:0.0026338404):0.0295845492,(Undulacandona_andromeda:0.0095457230,Undulacandona_sp.:0.0132440296):0.0120899117):0.0083850023):0.0092364182):0.0125175732,Mixtacandona_chappuisi:0.1470324018):0.0099139683):0.0442024014,Fabaeformiscandona_aemonae:0.0846888854):0.0301844849,(((((((((((((Bennelongia_coondinerensis:0.0395097395,Bennelongia_lata:0.0366036620):0.0180189307,((Bennelongia_cuensis:0.0088118275,Bennelongia_cuensis_sensu_lato_RS150:0.0059611754):0.0357643417,Bennelongia_gwelupensis:0.0416615515):0.0066186917):0.0148045049,(Bennelongia_regina:0.0372354983,Bennelongia_triangulata:0.0755545946):0.0113893113):0.0092853626,((((Bennelongia_dedeckkeri:0.0833768903,Bennelongia_scanloni:0.0473463101):0.0344562582,Bennelongia_harpago:0.0706345263):0.0184614190,Bennelongia_tirigie:0.0536198356):0.0104249046,((Bennelongia_koendersae:0.0249986181,Bennelongia_sp.:0.0249792042):0.0377546139,Bennelongia_pinderi:0.0502529583):0.0219804087):0.0144571112):0.0085424883,((Bennelongia_kimberleyensis:0.0547171483,Bennelongia_strellyensis:0.0629236162):0.0296722764,Bennelongia_pinpi:0.0762246455):0.0250414608):0.0106912902,Eucypris_mareotica:0.0958784510):0.0201402293,(Eucypris_crassa:0.0658841369,(Eucypris_virens:0.1215425151,Tonnacypris_lutaria:0.0896511618):0.0244375069):0.0211502324):0.0193061534,((((((((Bradleycypris_vittata:0.0122607395,Tanycypris_sp.:0.0135096398):0.0022412867,Strandesia_uenoi:0.0047870204):0.0300096890,((Cypretta_seurati:0.0000028600,Cypretta_turgida:0.0000020457):0.0643669165,((Cypridopsis_adusta:0.0000029431,Cypridopsis_sp.:0.0040795043):0.0022117023,(((Cypridopsis_japonica:0.0000021296,Cypridopsis_sp:0.0000023131):0.0055827959,Cypridopsis_vidua:0.0017741322):0.0183817814,Cypridopsis_uenoi:0.0078371470):0.0030685159):0.0768092066):0.0141547342):0.0168207222,(Dolerocypris_ikeyai:0.0050641365,Dolerocypris_sinensis:0.0020328734):0.0673446094):0.0119008437,((Chrissia_dongqianhuensis:0.0058107364,Stenocypris_derupta:0.0021768766):0.0320184160,Stenocypris_sp.:0.0411877405):0.0423295252):0.0108456200,((Cyprididae_gen._sp.:0.0000021455,(Manuelcypris_chetumalensis:0.0015444336,Manuelcypris_tabascena:0.0005324576):0.0013960485):0.0206074541,((((Cyprinotus_sp.:0.0023816324,Eucypris_pigra:0.0015225943):0.0000029653,Eucypris_sp.:0.0015088722):0.0095427638,Heterocypris_salina:0.0034152821):0.0175181347,(Heterocypris_barbara:0.0743371589,(((Heterocypris_cf._incongruens_AG-2007:0.0548873213,Heterocypris_incongruens:0.0025719232):0.0026503292,Heterocypris_sp:0.0173003584):0.0131172783,(Heterocypris_sp.:0.0009843305,Heterocypris_vandouwei:0.0053448772):0.0074604437):0.0020455760):0.0092569864):0.0077832699):0.0259333812):0.0104210752,Strandesia_lansactohai:0.0928011386):0.0032656048,(Stenocypria_sp.:0.0574239312,Stenocypris_major:0.0205981047):0.0121475810):0.0112841072):0.0161564585,((((Bennelongia_ivanae:0.0670284906,Bennelongia_mckenziei:0.1051579837):0.0494048896,((Bennelongia_nimala:0.0743771392,Bennelongia_timmsi:0.1152344579):0.0258389626,(Prionocypris_aragonica:0.1651815809,Strandesia_velhoi:0.0855968125):0.0197382005):0.0230062756):0.0162068226,((((Dolerocypria_mukaishimensis:0.0000023697,Dolerocypria_sp.:0.0348841221):0.0130370896,Dolerocypria_taalensis:0.0033579949):0.0409688453,(Paracypria_longiseta:0.0823360392,Paracypria_plumosa:0.1438949236):0.0314854091):0.0168495366,(Mangalocypria_ryukyuensis:0.0245873040,Mangalocypria_sp.:0.0239369807):0.0777057030):0.0360816804):0.0042533530,(((((((Cyclocypris_sp.:0.0000023418,Cypria_sp.:0.0109820222):0.0125910695,((Cypria_crenulata:0.0000021884,Physocypria_sp.:0.0000024903):0.0000029236,Physocypria_cf._biwaensis_16_IK-2017:0.0000021296):0.0081488176):0.0144170396,((Physocypria_biwaensis:0.0000024840,Physocypria_cf._biwaensis_7_IK-2017:0.0000021296):0.0008941175,Physocypria_cf._biwaensis_27_IK-2017:0.0000021296):0.0001156096):0.0000014676,Physocypria_cf._biwaensis_32_IK-2017:0.0000021296):0.0008152050,Physocypria_kraepelini:0.0000021183):0.0116392956,(Cypria_exsculpta:0.0000021956,Physocypria_nipponica:0.0001312052):0.0131092432):0.0034598895,Cypria_ophtalmica:0.0005364576):0.0402222271):0.0206013597):0.0222435856,(Strandesia_nupelia:0.0863597290,Strandesia_obtusata:0.1190170699):0.0343503955):0.0042418233,((Ilyocypris_angulata:0.0000021296,Ilyocypris_sp:0.0000029033):0.0198060331,(Ilyocypris_japonica:0.0000021296,Ilyocypris_sp.:0.0000020741):0.0200547927):0.0626914179):0.0214716812,(Macromckenziea_aff._giambonini_SNB-2010:0.1957413262,(Macromckenziea_glacierae:0.1551352445,((((Macroscapha_aff._walterae_SNB-2010:0.0175175915,Macroscapha_walterae:0.0133867053):0.0158695223,Macroscapha_inaequata:0.0302942981):0.0130071846,Macroscapha_turbida:0.0556125443):0.0159200575,((Macroscapha_falcis:0.0135691987,Macroscapha_solecavai:0.0140667774):0.0090281937,Macroscapha_opaca:0.0079750247):0.0513775269):0.0470945272):0.0323094099):0.0204841799):0.0052671676,Notodromas_monacha:0.1380755016):0.0278615562):0.0240370901,Prionocypris_zenkeri:0.5758624626):0.0048736532,Macrocyprididae_sp.:0.0817071194):0.0126937505,Pontocyprididae_sp.:0.0584473138):0.0017466488,(Macrocypris_sp:0.0335866505,Macrocypris_sp.:0.0339432358):0.0745951154):0.0239126745,(((Bairdiocopina_sp.:0.0079104227,Propontocypris_sp1:0.0202887883):0.0256935574,(Propontocypris_pirifera:0.0021928836,Propontocypris_sp2:0.0066584320):0.0323231059):0.0403685420,Pontocypris_mytiloides:0.0325120771):0.1115612760):0.0020390935,(Metaconchoecia_longiseta:0.1220690493,Metaconchoecia_rotundata:0.0921896812):0.1392028902):0.0239174869,(Cytherellidae_sp.:0.0525712271,(((Cytheroidea_sp.:0.0125474164,Xestoleberididae_sp.:0.0019051123):0.0050326613,Loxoconchidae_sp.:0.0285777427):0.0443049907,(Cytheromatidae_sp.:0.0020578134,Paradoxostomatidae_sp.:0.0103615351):0.0289076426):0.0292523988):0.0102365034):0.0147190768):0.0012532221,Bairdiidae_sp.:0.0551455003):0.0158059062):0.0496438853,(Paracobanocythere_grandis:0.1588219142,(Paracobanocythere_sp.:0.1356930428,Paracobanocythere_watanabei:0.1657325474):0.0946902160):0.1968748984):0.0070907241,((((((((((Actinoseta_jonesi:0.0148258650,(Asteropella_slatteryi:0.0024445893,Asteropella_sp.:0.0058242610):0.0224858085):0.0173848514,Asteropterygion_magnum:0.0588401724):0.0174516646,Asteropella_monambon:0.0840750674):0.0169565154,Tetraleberis_sp.:0.0144689126):0.0140201884,(Leuroleberis_mackenziei:0.0257210707,Leuroleberis_surugaensis:0.2311772108):0.0432072186):0.0117961861,((((((Archasterope_bulla:0.0409548098,((Archasterope_efficax:0.0308143519,Bathyleberis_oculata:0.0285803475):0.0152852249,Archasterope_sp.:0.0033652058):0.0076085593):0.0191883172,(Cylindroleberis_marranyin:0.0131667906,(Cylindroleberis_sp.:0.0215729942,Parasterope_sp.:0.0617385173):0.0355007181):0.0368483240):0.0241455979,((Parasterope_gamurru:0.0565950813,Synasterope_sp.:0.0495466132):0.0126247723,Parasterope_styx:0.0139351991):0.0165928502):0.0155872204,(Cylindroleberididae_sp.:0.0260984506,Skogsbergiella_sp.:0.0157085824):0.0136352995):0.0218409740,(Postasterope_barnesi:0.0427369132,Postasterope_corrugata:0.0356615140):0.0250953969):0.0148253954,Parasterope_pollex:0.0163709274):0.0283080739):0.0237555596,(Azygocypridina_lowryi:0.0805874090,(((((Cypridina_noctiluca:0.1815283001,Cypridinodes_sp.:0.3010114365):0.0812613100,((Paradoloria_pellucida:0.1700871245,Skogsbergia_sp.:0.1846842146):0.0508340147,Paravargula_sp.:0.2635430187):0.0491391665):0.0492039234,Melavargula_japonica:0.0957245225):0.0012800651,Skogsbergia_lerneri:0.0195554633):0.0296489973,((Vargula_hilgendorfii:0.0412729565,Vargula_tsujii:0.0206070861):0.0063408732,Vargula_sp.:0.2499199382):0.0166536372):0.0234904198):0.0180908124):0.0201585262,((((Cypridina_dentata:0.1187728181,(Gigantocypris_dracontovalis:0.0445592304,Gigantocypris_muelleri:0.0581357991):0.0870462463):0.0673545905,((((Euphilomedes_cacharodonta:0.0357418588,Euphilomedes_sp.:0.0195347121):0.0001664503,Euphilomedes_morini:0.0081650814):0.0291799147,(Euphilomedes_japonica:0.2380593076,Euphilomedes_sordida:0.0341860500):0.0219522517):0.0355637446,(Rutiderma_apex:0.0000023853,Rutidermatidae_sp.:0.0000021296):0.0404109753):0.0000023507):0.0148898965,(((Eurypylus_koreanus:0.1328543025,((Eusarsiella_cornuta:0.1213309083,Eusarsiella_hanguk:0.1256489118):0.0381480729,Sarsiella_japonica:0.1195091619):0.0341537655):0.0467027655,((Eusarsiella_sp:0.0268589687,(Eusarsiella_sp.:0.0000029316,Sarsiellidae_sp.:0.0000021296):0.0390603263):0.0096265355,Sarsiella_misakiensis:0.0041453315):0.0081786903):0.0033600578,Philomedes_sp.:0.0153522940):0.0148787688):0.0190883556,(Harbansus_paucichelatus:0.0395799441,Philomedidae_sp.:0.0097076886):0.0177890593):0.0359657534):0.0728048829,((((Conchoecia_sp:0.0127889549,Conchoecia_sp.:0.0073003518):0.0098298231,Conchoecissa_sp:0.2485083105):0.1874313202,Hutchinsoniella_macracantha:0.2327616229):0.0498062727,(((Kliecope_mihoensis:0.0646610965,Kliecope_oligohalina:0.0475007674):0.0472861793,((((Parapolycope_digitolabrum:0.0010679328,Parapolycope_uncata:0.0020748757):0.0234721114,Parapolycope_psittacina:0.0027956086):0.0280832716,((((Parapolycope_setouchiensis:0.0110815744,Parapolycope_sp.:0.1370912016):0.0082146254,Parapolycope_spiralis:0.0161356918):0.0051559739,(Parapolycope_viriosa:0.0075056847,Parapolycope_watanabei:0.0068834704):0.0010641242):0.0154358949,Parapolycope_widoensis:0.0236505962):0.0297408629):0.0182389972,((Parapolycope_japonica:0.0000021296,Polycope_japonica:0.0000021296):0.0197409241,(Parapolycope_miurens:0.0074344616,Parapolycope_subtidalis:0.0062959974):0.0319483322):0.0132471001):0.0521019430):0.0432695673,(((Polycope_pseudoinornata:0.0120893397,(Polycope_punctata:0.0258496500,Polycope_yasuharai:0.0689227007):0.0103994988):0.0327408493,((Polycope_sp:0.0187078411,Polycope_sp.:0.0170772352):0.0408765912,Polycopetta_quadrispinata:0.0749056352):0.0019388814):0.0212767811,Polycopiella_sp.:0.0983784824):0.0253856781):0.1377064860):0.0263726018):0.0165029937,((((((((((Alacia_alata:0.0999248581,(Orthoconchoecia_bispinosa:0.0878171844,(Orthoconchoecia_haddoni:0.1037701666,Orthoconchoecia_secernenda:0.0620524282):0.0261707777):0.0282400509):0.0200176930,((((Boroecia_antipoda:0.0294788976,Boroecia_borealis:0.0583556295):0.0184278586,Boroecia_maxima:0.0664361840):0.0624053396,((((Conchoecissa_symmetrica:0.1041703491,Gaussicia_incisa:0.1075810089):0.0281656042,Loricoecia_acutimarginata:0.1300671388):0.0267760107,(Mollicia_kampta:0.0646449286,Mollicia_mollis:0.0615503402):0.0235871290):0.0271253824,(Paramollicia_dichotoma:0.0667888240,Paramollicia_major:0.0639999239):0.0526883733):0.0246342375):0.0185400751,Mollicia_tyloda:0.0696222377):0.0189507752):0.0176356045,(Conchoecissa_ametra:0.0693142007,Conchoecissa_imbricata:0.0930593352):0.0333255622):0.0164347805,(Discoconchoecia_elegans:0.0740172941,Discoconchoecia_sp.:0.0513177037):0.0553722361):0.0146574905,(((Discoconchoecia_aff._elegans_CMARA05309_Os109.1.1:0.0000021296,Discoconchoecia_aff._elegans_CMARA05509_Os109.1.3:0.0000021296):0.0999918289,Porroecia_spinirostris:0.0999442749):0.0332758343,(Macroconchoecia_macroreticulata:0.0783129690,Macroconchoecia_spinireticulata:0.0794952998):0.0679615326):0.0292340670):0.0150742939,((Conchoecetta_acuminata:0.0643765072,Conchoecetta_giesbrechti:0.0731852649):0.0563067104,(((Conchoecilla_chuni:0.0819360823,Conchoecilla_daphnoides:0.1054701631):0.0475099705,Paraconchoecia_dasyophthalma:0.1228083181):0.0286521848,((Deeveyoecia_arcuata:0.0079005498,Metaconchoecia_arcuata:0.0023243188):0.1113369410,Paraconchoecia_dorsotuberculata:0.1113989633):0.0421919621):0.0128259959):0.0175009286):0.0140842016,(Discoconchoecia_discophora:0.0703657064,Proceroecia_brachyaskos:0.1136779194):0.0222153550):0.0197297557,(((((((Alacia_valdiviae:0.1171760159,Halocypria_globosa:0.0988590168):0.0409715046,(Chavturia_abyssopelagica:0.1191206590,Fellia_cornuta:0.0689527385):0.0306738049):0.0292647686,(((Halocypris_aff._angustifrontalis_Os097.1.1:0.0000021296,Halocypris_aff._angustifrontalis_Os097.1.3:0.0032250658):0.0016136707,Halocypris_aff._angustifrontalis_Os097.1.2:0.0000025885):0.0379885507,Halocypris_inflata:0.0499319208):0.0565853865):0.0191584983,(((Archiconchoecetta_bimucronata:0.0674547533,Archiconchoecetta_bispicula:0.1213810205):0.0786549922,(Archiconchoecia_striata:0.0737354334,Archiconchoecissa_pljusnini:0.1386543330):0.0355389806):0.0181669910,Archiconchoecia_versicula:0.1071870392):0.0180085896):0.0219864919,(((Austrinoecia_isocheira:0.1065063658,Pseudoconchoecia_serrulata:0.1198203883):0.0411527360,Clausoecia_pusilla:0.0936194037):0.0200479144,((Proceroecia_microprocera:0.0788159392,Proceroecia_procera:0.0554980540):0.0321296078,Proceroecia_sp.:0.0830944153):0.0870689778):0.0169605117):0.0108155843,(((((Conchoecia_hyalophyllum:0.0461612029,Conchoecia_magna:0.0443216641):0.0625223673,(((Metaconchoecia_skogsbergi:0.0019318136,Obtusoecia_antarctica:0.0045411287):0.0955637172,Paraconchoecia_echinata:0.0993737715):0.0360286933,((Mikroconchoecia_curta:0.0492917359,Mikroconchoecia_sp.:0.0500614799):0.0267190438,Mikroconchoecia_stigmatica:0.0779189765):0.0398119566):0.0159635326):0.0271536568,(Nasoecia_nasotuberculata:0.0822478903,Paraconchoecia_oblonga:0.0820299978):0.0194352168):0.0195637009,(((Euconchoecia_cf._chierchiae_S15-D7:0.0615124556,Euconchoecia_chierchiae:0.0527872013):0.0913738161,(Porroecia_parthenoda:0.0781845757,Porroecia_sp.:0.0258425572):0.1321274078):0.0439639379,Kyrtoecia_kyrtophora:0.0685729277):0.0207220623):0.0128150814,(((Metaconchoecia_acuta:0.0596617738,((Metaconchoecia_aff._skogsbergi_Os072.1.1:0.0043172500,Metaconchoecia_aff._skogsbergi_Os072.1.3:0.0000022629):0.0000025217,Metaconchoecia_aff._skogsbergi_Os072.1.2:0.0000029541):0.0968279476):0.0207318450,Rotundoecia_teretivalvata:0.1033033119):0.0247803905,(Metaconchoecia_inflata:0.0716157953,Metaconchoecia_subinflata:0.0913920786):0.0268083880):0.0396138448):0.0126856842):0.0138834009,((Conchoecia_macrocheira:0.0907573460,(Mamilloecia_mamillata:0.0041503187,Paraconchoecia_mamillata:0.0023287868):0.1020151599):0.0337967548,(Paraconchoecia_aequiseta:0.0980737901,Paraconchoecia_allotherium:0.0707266675):0.0147040765):0.0181720733):0.0249423003):0.0112897715,(Archiconchoecemma_simula:0.0907795066,Paraconchoecia_cophopyga:0.1021592807):0.0330349657):0.0141059398,((Alacia_belgicae:0.0537387804,Alacia_hettacra:0.0477000924):0.0598525054,Orthoconchoecia_atlantica:0.1337641221):0.0210360734):0.1048595612):0.0238702015):0.0138055529,Manawa_staceyi:0.1425564782):0.0158104704,((Argulus_sp:0.0673817529,Armillifer_armillatus:0.0723080678):0.0144894966,(Derocheilocaris_typicus:0.0951210463,(Limulus_polyphemus:0.0541664731,Scutigera_coleoptrata:0.0864541022):0.0236108216):0.0207228320):0.0248248754):0.0441027963,((((Artemia_franciscana:0.0026675472,Artemia_salina:0.0021423473):0.0517143300,Streptocephalus_seali:0.0097025563):0.0414661646,(((Daphnia_pulex:0.0957488620,Triops_longicaudatus:0.0218694296):0.0219134477,Limnadia_lenticularis:0.0120126322):0.0155844681,Lynceus_sp:0.0379330234):0.0203224890):0.0608785722,(Orchesella_imitari:0.0326154893,Tomocerus_sp:0.0217032013):0.0482777844):0.0122658017):0.0382271560,((Acyrthosiphon_pisum:0.1840722269,((Apis_mellifera:0.0464140200,Periplaneta_americana:0.0585385183):0.0217556395,Tribolium_castaneum:0.0329312754):0.0338512471):0.0297503834,Drosophila_melanogaster:0.2198399796):0.0441749640):0.0264270250,((Armadillidium_vulgare:0.1848088386,Nebalia_hessleri:0.0776685276):0.0255383670,(((Chthamalus_fragilis:0.0281977219,Loxothylacus_texanus:0.0803691084):0.0265323434,Semibalanus_balanoides:0.0285279969):0.0127267823,Lepas_anserifera:0.0396692631):0.1796063730):0.0327963133):0.0697752828,Calanus_finmarchicus:0.0706641773):0.0170903509,((Caligus_rogercresseyi:0.0400426728,Lepeophtheirus_salmonis:0.0157754893):0.0293047493,Lernaeocera_branchialis:0.0525095035):0.0278666334):0.0521977801,Mesocyclops_edax:0.0155467613);
+
+TIME STAMP
+----------
+
+Date and time: Sat Dec  7 16:50:32 2019
+Total CPU time used: 34612.3 seconds (9h:36m:52s)
+Total wall-clock time used: 2012.55 seconds (0h:33m:32s)
+
