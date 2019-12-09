@@ -114,8 +114,9 @@ seqdir="data/sequences"
 #singularity exec $sing_image perl scripts/get_gb.pl $accdir/Yoo_et_al_2016_28s.txt nucleotide phytab $seqdir/Yoo_et_al_2016_28s.phytab '' '' firstline
 #singularity exec $sing_image perl scripts/get_gb.pl $accdir/Yoo_et_al_2016_28s_ddff.txt nucleotide phytab $seqdir/Yoo_et_al_2016_28s_ddff.phytab '' '' firstline
 #singularity exec $sing_image perl scripts/get_gb.pl $accdir/Yoo_et_al_2016_28s_eemm.txt nucleotide phytab $seqdir/Yoo_et_al_2016_28s_eemm.phytab '' '' firstline
-
-
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/karanovic_2019_ITS.txt nucleotide phytab $seqdir/karanovic_2019_ITS.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/karanovic_2019_CO1.txt nucleotide phytab $seqdir/karanovic_2019_CO1.phytab '' '' firstline
+#singularity exec $sing_image perl scripts/get_gb.pl $accdir/Tanaka_2019a_18S.txt nucleotide phytab $seqdir/Tanaka_2019a_18S.phytab '' '' firstline
 
 
 
