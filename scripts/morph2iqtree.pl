@@ -63,6 +63,10 @@ sub print_phytab
 			for(my $c = 0; $c < 30; $c++){
 				if($chars{$c} eq $search){
 					if($search eq "Binary") {
+						if($matrix{$name}{$c} =~ m/\(/ ){
+							print "WARNING: Character $c is binary but $species is $matrix{$name}{$c} \t*****CHANGING to ? assuming missing data\n";
+							$matrix{$name}{$c} = '?';
+						}
 						unless($matrix{$name}{$c} =~ m/[01\?]/ ){
 							print "WARNING: Character $c is binary but $species is $matrix{$name}{$c} \t*****CHANGING to ? assuming missing data\n";
 							$matrix{$name}{$c} = '?';

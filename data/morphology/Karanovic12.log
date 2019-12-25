@@ -1,0 +1,45 @@
+WARNING: Character 20 is binary but Alphasarsiella_altrix is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 0 is binary but Dantya_trix is (01) 	*****CHANGING to ? assuming missing data
+WARNING: Character 20 is binary but Eusarsiella_dornellasae is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 11 is binary but Eusarsiella_nodimarginis is * 	*****CHANGING to ? assuming missing data
+WARNING: Character 2 is binary but Eusarsiella_rudescui is − 	*****CHANGING to ? assuming missing data
+WARNING: Character 20 is binary but Eusarsiella_spicata is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 14 is binary but Nealella_monothrix is * 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_anommata is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 20 is binary but Sarsiella_armata is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_armata is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_capsula is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_fadeevi is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_japonica is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_longicornis is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_maculata is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 20 is binary but Sarsiella_multispinosa is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_multispinosa is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 20 is binary but Sarsiella_nana is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_nana is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_oryx is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 20 is binary but Sarsiella_parvispinosa is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_parvispinosa is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_pugnax is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_spinulosa is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_striata is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_varix is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 24 is binary but Sarsiella_verae is 2 	*****CHANGING to ? assuming missing data
+WARNING: Character 10 is Multi-state [0-9] but Cymbicopia_climax is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 10 is Multi-state [0-9] but Eusarsiella_childi is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 10 is Multi-state [0-9] but Eusarsiella_culteri is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 13 is Multi-state [0-9] but Eusarsiella_falx is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 10 is Multi-state [0-9] but Eusarsiella_fax is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 25 is Multi-state [0-9] but Eusarsiella_iayx is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 12 is Multi-state [0-9] but Eusarsiella_nodimarginis is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 13 is Multi-state [0-9] but Eusarsiella_nodimarginis is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 10 is Multi-state [0-9] but Eusarsiella_pilipollicis is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 26 is Multi-state [0-9] but Eusarsiella_pilipollicis is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 26 is Multi-state [0-9] but Eusarsiella_saengeri is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 26 is Multi-state [0-9] but Parasarsiella_poorei is * 	*****CHANGING to ? assuming missing data
+WARNING: Character 26 is Multi-state [0-9] but Sarsiella_pugnax is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 10 is Multi-state [0-9] but Spinacopia_antarctica is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 12 is Multi-state [0-9] but Spinacopia_illex is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 10 is Multi-state [0-9] but Spinacopia_variabilis is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 13 is Multi-state [0-9] but Spinacopia_variabilis is $ 	*****CHANGING to ? assuming missing data
+WARNING: Character 25 is Multi-state [0-9] but Spinacopia_variabilis is $ 	*****CHANGING to ? assuming missing data
