@@ -19,7 +19,8 @@ open (ACCFILE,"<$accfile") or die "Cannot open file containing accession numbers
 while (<ACCFILE>){
 	chomp;
 	next unless ($_);
-	push(@accnums, $_);
+	my @nocomment = split('\s', $_);	
+	push(@accnums, $nocomment[0]);
 }
 close ACCFILE;
 
