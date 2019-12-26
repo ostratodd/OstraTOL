@@ -1,0 +1,35 @@
+Character Number	"Type (Binary, Multi-state, Meristic, Continuous)"	Nstates	Character Name	State 1	State 2	State 3	Character Weight																		
+0	Binary	2	Rostrum	pronounced (0)	absent or very small (1)		1																		
+1	Binary	2	Anterior incisure on the shell	present (0)	absent (1)		0.75																		
+2	Binary	2	Longitudinal ridges on the surface	present (0)	absent (1)		0.5																		
+3	Multi-state	3	Fossae on the shell	rough (0)	present but small (1)	absent (2)	0.5																		
+4	multi-state	3	Caudal process on the shell	present and prominent (0)	present but small (1)	absent (2)	0.75																		
+5	Binary	2	Posterior infold	with a row of prominent bristles starting from posterior part (0)	"only two prominent dorsal bristles present postero-dorsally, others much smaller and usually scattered (1)"		1																		
+6	Binary	2	"c-, f-, and g-bristles"	normal (0)	claw-like (1)		1																		
+7	Multi-state	3	Number of bristles intero-distally on the fused third and fourth segments of A1	3 (0)	2(1)	1 (2)	0.5																		
+8	Binary	2	Endopod on the A2	two-segmented (0)	one-segmented (1)		0.75																		
+9	Multi-state	3	Second segment on the endopod A2	prominent and clearly divided (0)	very short and almost fused with the previous one (1)	absent (2)	0.75																		
+10	Multi-state	3	Number of bristles on the first segment of endopod A2	3 (0)	2 (1)	1 (2)	0.5																		
+11	Binary	2	Apical bristle(s) on the endopod A2	present (0)	absent (1)		0.75																		
+12	Multi-state	3	Apical bristle on the endopod A2	present and long (0)	present and short (1)	absent (2)	0.75																		
+13	Multi-state	3	Number of apical bristles on the endopod A2	2 (0)	1 (1)	0 (2)	0.75																		
+14	Binary	2	Number of bristles on the terminal segment of exopod A2	3 (0)	2 (1)		0.75																		
+15	Binary	2	Coxale endite on the Md	"bifurcate, prominent and surrounded with spinous bristles (0)"	reduced to a single spine or absent (1)		0.75																		
+16	Binary	2	Exopod on the Md	with a clear segment and apical bristle(s) (0)	absent or only bristle left (1)		1																		
+17	Binary	2	Endopodal segments of Md	at least one with more than two claws (0)	all with one claw (1)		1																		
+18	Binary	2	Number of bristles on the exopod Mxl	2 (0)	1 (1)		0.5																		
+19	Binary	2	Endopod on L5	clearly separated from the basis (0)	partly fused with it (1)		1																		
+20	Multi-state	2	Number of bristles on the endite of L6	2 (0)	1 (1)		0.5																		
+21	Multi-state	3	Number of distal bristles on the L6	more than 14 (0)	12 or 13 (1)	11 or fewer (2)	0.5																		
+22	Binary	2	Distal end of the L7	with teeth at least on one side (0)	without teeth (1)		1																		
+23	Multi-state	3	Distal end with	teeth on both side (0)	on one side only (1)	on neither side (2)	1																		
+24	Multi-state	2	Number of teeth in each comb	more than 3 (0)	3 or fewer (1)		0.75																		
+25	Multi-state	3	Number of opposite pars on the bell-bearing bristles distally on L7	more than 2 (0)	2 (1)	1 (2)	0.75																		
+26	Multi-state	3	Number of claws on the UL	7 or more (0)	6 (1)	5 or fewer (2)	0.75																		
+27	Multi-state	3	Number of claws fused with lamellae	3 (0)	2 (1)	1 (2)	1																		
+28	Binary	2	Second claw on the UL	fused with lamellae (0)	free (1)		1																		
+29	Binary	2	Third claw on the UL	fused with lamellae (0)	free (1)		1																		
+30	Binary	2	Fourth claw on the UL	fused with lamellae (0)	free (1)		1																		
+31	Binary	2	Claws on the UL	gradually decreasing in length (0)	one of the claw being shorter than its neighbours(1)		1																		
+32	Binary	2	Bellonci organ	segmented (0)	not segmented or segmentation not clear (1)		0.75																		
+33	Binary	2	Lateral eye	present (0)	absent (1)		0.75																		

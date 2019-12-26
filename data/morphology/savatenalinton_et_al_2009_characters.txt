@@ -1,0 +1,23 @@
+Character Number	"Type (Binary, Multi-state, Meristic, Continuous)"	Nstates	Character Name	State 1	State 2	State 3	State 4	State 5	State 6																
+0	Binary	2	"Carapace, dorsal view"	(0) narrow	"(1) ovate, sub-ovate"																				
+1	Binary	2	"Carapace, frontal view"	(0) symmetry	(1) oblique																				
+2	Binary	2	Carapace overlapping	(0) no overlapping	(1) LV overlap RV anteriorly and posteriorly																				
+3	Multi-state	3	Carapace lateral view	(0) elongate	(1) sub-elliptical	(2) sub-triangular																			
+4	Binary	2	Groove on LV margin	(0) absent	(1) present																				
+5	Multi-state	6	LV inner list type	(0) A	(1) B	(2) C	(3) D	(4) E	(5) F																
+6	Multi-state	3	Triebel¡¯s loop position	(0) absent	(1) middle	(2) dorsal branch																			
+7	Multi-state	5	Caudal ramus attachment type	(0) A	(1) B	(2) C	(3) D	(4) E																	
+8	Binary	2	Caudal ramus	(0) slender	(1) stout																				
+9	Binary	2	"Caudal ramus, claws shape"	(0) slender	(1) stout																				
+10	Binary	2	"Caudal ramus, insertion of proximal claw"	(0) close to distal claw	(1) far from distal claw																				
+11	Binary	2	"Caudal ramus, insertion of proximal seta"	(0) close to proximal claw	(1) far from proximal claw																				
+12	Binary	2	"T1, d seta"	(0) absent	(1) present																				
+13	Binary	2	"T1, b seta"	(0) absent	(1) present																				
+14	Multi-state	4	"T2, d1 and d2 type"	(0) A	(1) B	(2) C	(3) D																		
+15	Multi-state	3	Rome organ	(0) short	(1) long																				
+16	Multi-state	3	Wouters organ	(0) absent	(1) present																				
+17	Multi-state	3	"A1, ya compare to apical short seta"	(0) shorter	(1) longer																				
+18	Multi-state	3	"A2, Y"	(0) short	(1) long																				
+19	Multi-state	6	Hemipenis type	(0) A	(1) B	(2) C	(3) D	(4) E	(5) other types																
+20	Multi-state	3	Zenker organ	(0) Cypricercus-type	(1) Strandesia-type (2) other types																				
+21	Multi-state	3	T1 palp in male	(0) slender	"(1) sub-ovate, elliptical"																				

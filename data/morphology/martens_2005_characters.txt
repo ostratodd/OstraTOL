@@ -1,0 +1,30 @@
+Character Number	"Type (Binary, Multi-state, Meristic, Continuous)"	Nstates	Character Name	State 1	State 2	State 3																			
+0	Multi-state	3	Lateral view	sloping (0)	sub-quadrate (1)	rounded (2)																			
+1	Binary	2	overlap	L/R (0)	R/L (1)																				
+2	Multi-state	3	keel	RV with long keel (0)	short ventral keel (1)	no keel (2)																			
+3	Multi-state	3	Antero-frontal internal tooth (mostly in LV)	long (0)	short (1)	absent (2)																			
+4	Binary	2	internal tooth	LV with (0)	without (1) ventro-caudal internal tooth																				
+5	Binary	2	Posterior internal tooth (mostly in LV)	present (0)	absent (1)																				
+6	Multi-state	3	Hinge	adont (0)	with large anterior and posterior cardinal teeth (1)																				
+7	Binary	2	Size	>0.6 mm (0)	¡Ü0.6 mm (1)																				
+8	Multi-state	3	L/H ratio	>2.2 (0)	between 1.8 and 2.2 (1)	<1.8 (2)																			
+9	Binary	2	Brooding space externally	visible (0)	not (1)																				
+10	Binary	2	Position of muscle scar rosette	towards the front (0)	central (1)																				
+11	Binary	2	Muscle scars	average number of scars >8 (0)	¡Ü8 (1)																				
+12	Binary	2	A1 first segment of protopodite with	2 (0)	1 (1) dorsal seta																				
+13	Binary	2	A1 ¡®exopodite¡¯ with	3 (0)	2 (1) setae																				
+14	Binary	2	A1 second segment of protopodite 	with(0)	without (1) dorso-apical seta																				
+15	Binary	2	A1 first segment of endopodite 	with (0)	without (1) ventro-apical seta																				
+16	Binary	2	A1 second segment of endopodite 	with(0)	without (1) ventro-apical seta																				
+17	Binary	2	A1 second segment of endopodite with	2 (0)	1 (1) large dorsal seta																				
+18	Binary	2	A2 ¡®exopodite¡¯ with	2 (0)	1 (1) seta (+spine)																				
+19	Binary	2	A2 first segment of endopodite with	2 (0)	1 (1) ventro-apical seta																				
+20	Binary	2	"Md-palp, penultimate segment"	seta z long (0)	short (1)																				
+21	Multi-state	3	"Md-palp, penultimate segment"	seta y long (0)	short (1)	absent (2)																			
+22	Binary	2	"Md-palp, last segment ?poil stevensoni?"	present (0)	absent (1)																				
+23	Multi-state	3	"Md-palp, last segment ,number of apical claws"	6 (0)	5 (1)	4 (2)																			
+24	Binary	2	"Md-palp, last segment,setae a, b"	2 (0)	1 (1)																				
+25	Binary	2	"Md-palp, last segment seta c"	present (0)	absent (1)																				
+26	Multi-state	3	"T1, penultimate palp segment, number of setae"	2 (0)	1 (1)	0 (2)																			
+27	Binary	2	Caudal ramus in adult	present (0)	absent (1)																				
+28	Multi-state	3	Post-abdomen with	caudal seta (0)	?spines? (1)	smooth (2)																			

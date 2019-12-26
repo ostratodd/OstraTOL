@@ -1,0 +1,28 @@
+Character Number	"Type (Binary, Multi-state, Meristic, Continuous)"	Nstates	Character Name	State 1	State 2	State 3																			
+0	Multi-state	3	Ornamentation	(0) absent or smooth	(1) pits or reticulation	(2) pustules and rosettes																			
+1	Multi-state	3	"Central sulcus, external view"	(0) no sulcus	(1) depression-like sulcus	(2) sulcus well developed																			
+2	Binary	2	"Carapace, female, inflated brood cavity"	(0) absent	(1) present																				
+3	Multi-state	3	Hinge type	(0) adont	(1) lophodont	(2) inverse lophodont																			
+4	Multi-state	3	Inwardly displaced ventro-posterior selvage on RV	(0) absent	(1) present	(2) large																			
+5	Multi-state	3	Inwardly displaced anterior selvage on RV	(0) absent	(1) present	(2) large																			
+6	Binary	2	Sieve pores	(0) true sieve pore	(1) reduced sieve pore																				
+7	Binary	2	Thick band on valve margin	(0) absent	(1) present																				
+8	Binary	2	"Al, insertion of S2 Ant seta"	(0) basal-central seta	(1) apical seta																				
+9	Multi-state	3	"Al, segmentation of S4 and S5"	(0) divided	(1) incomplete	(2) fused																			
+10	Binary	2	"A2, dorsal chaetotaxy of S (2 + 3)"	(0) 2 setae	(1) 1 setae																				
+11	Binary	2	"A2, ventral chaetotaxy of S (2 4- 3)"	(0) 2 setae	(1) 1 seta																				
+12	Binary	2	"A2, chaetotaxy of penultimate segment"	(0) 3 claws only	"(1) 3 claws + setae ""e"""																				
+13	Binary	2	"A2, claw Gp"	(0) not sexually dimorphic	(1) sexually dimorphic																				
+14	Binary	2	"A2, exopodite"	(0) divided	(1) undivided																				
+15	Binary	2	Md palp	(0) S2 and S3 separated	(1) S2 and S3 fused																				
+16	Binary	2	Mxl palp last segment	(0) separate	(1) fused																				
+17	Binary	2	"Tl, first segment dorsal side"	(0) 2 setae	(1) 1 seta																				
+18	Binary	2	"T2, first segment dorsal side"	(0) 2 setae	(1)1 seta																				
+19	Multi-state	3	"T3, first segment dorsal side"	(0) 2 setae	(1)1 seta	(2) 0 setae																			
+20	Binary	2	"T3, terminal claws"	(0) elongate	(1) curved																				
+21	Binary	2	"Hemipenis, DL"	(0) not articulating	(1) articulating																				
+22	Binary	2	"Hemipenis, DL"	(0) with seta	(1) without seta																				
+23	Binary	2	"Hemipenis, apical seta on main body"	(0) present	(1) absent																				
+24	Multi-state	3	"Hemipenis, DL, shape"	(0) elongate	(1) triangular or sub-triangular	(2) quadrate or sub quadrate																			
+25	Multi-state	3	"Hemipenis, UR"	(0) small	(1) elongate	(2) triangular																			
+26	Multi-state	3	"Hemipenis, CP"	(0) simple	"(1) curved, hook-like"	(2) complex																			
