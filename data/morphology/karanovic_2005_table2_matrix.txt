@@ -26,7 +26,7 @@ Candonopsis (Candonopsis) urmilae	1	1	1	1	1	0	0	1	1	0	0	0	1	0	1	0	0	0	0	0	0	-	1	
 Candonopsis (Candonopsis) westaustraliensis	1	1	1	1	1	0	0	1	1	0	0	0	0	0	1	1	0	0	0	0	0	1	0	0	1	1	0	1	1	1	0	0	1	1
 Cubacandona cubensis	1	1	1	1	1	1	0	1	0	0	0	0	0	0	1	-	0	0	1	0	1	-	1	1	0	0	1	0	2	1	0	1	1	0
 Cubacandona anisitsi	1	1	1	-	1	1	0	0	0	0	0	-	0	0	-	-	-	0	-	0	0	-	-	1	0	0	-	0	2	1	-	-	-	-
-Cubacandona columbiensis	1	0	0	1	1	1	1	0	0	0	0	0	0	0	-	1	-	0	1	-	0	-	1	1	0	0	0	0	1		-	-	-	-
+Cubacandona columbiensis	1	0	0	1	1	1	1	0	0	0	0	0	0	0	-	1	-	0	1	-	0	-	1	1	0	0	0	0	1	1	-	-	-	-
 Cubacandona falclandica	1	1	1	-	1	1	0	1	0	0	0	-	0	0	-	1	-	0	-	0	0	-	-	1	0	0	0	0	1	1	-	-	-	-
 Caribecandona trapezoidea	1	1	1	1	1	1	0	1	0	0	1	0	1	0	1	1	0	0	0	0	0	0	1	1	0	1	0	0	2	0	0	1	0	0
 Caribecandona auricularia	1	1	1	1	1	1	0	1	0	0	1	0	1	0	1	1	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	1	0	0
