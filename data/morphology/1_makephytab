@@ -1,0 +1,2 @@
+
+../../scripts/morph2iqtree.pl Karanovic_2012_matrix.txt Karanovic_2012_characters.txt Karanovic_2012.phytab Karanovic12 > Karanovic12.log
