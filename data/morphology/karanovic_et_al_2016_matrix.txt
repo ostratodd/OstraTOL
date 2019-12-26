@@ -1,0 +1,15 @@
+Taxon	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17							
+Kliecope mihoensis 	1	0	1	0	1	1	1	0	1	2	1	1	0	0	1	1	1	0							
+Kliecope oligohalina	0	0	1	0	1	1	1	0	1	2	1	1	0	0	1	1	1	0							
+Parapolycope digitolabrum	0	1	1	1	0	0	0	1	0	0	1	0	0	0	1	1	0	0							
+Parapolycope japonica	0	1	1	1	0	0	1	1	0	0	1	1	0	0	0	0	0	0							
+Parapolycope koreana	0	1	1	1	0	0	0	1	0	0	1	0	0	0	0	1	0	0							
+Parapolycope miurensis 	1	1	1	1	1	1	1	1	0	1	1	1	0	0	1	0	1	0							
+Parapolycope psittacina	1	0	1	1	0	0	0	1	1	2	1	0	1	1	1	1	1	0							
+Parapolycope setouchiensis	0	1	0	1	0	0	0	1	1	2	0	0	1	0	1	1	1	1							
+Parapolycope spiralis	1	0	0	1	0	0	0	1	1	2	0	0	1	0	1	1	1	1							
+Parapolycope subtidalis 	0	0	1	1	1	1	1	1	0	1	1	1	0	0	1	0	1	0							
+Parapolycope uncata 	0	1	1	1	0	0	0	1	1	2	1	0	1	1	1	1	1	0							
+Parapolycope viriosa 	1	1	0	1	0	0	1	1	1	2	0	0	1	0	1	1	1	1							
+Parapolycope watanabei 	1	1	0	1	0	0	1	1	1	2	0	0	1	0	1	1	1	1							
+Parapolycope widoensis 	1	0	0	1	0	1	1	1	1	2	0	0	1	0	1	1	1	1							

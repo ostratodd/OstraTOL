@@ -1,0 +1,16 @@
+Taxon	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	27
+Afrocythere rostrata	1	1	0	0	1	1	?	0	0	2	0	1	0	0	1	1	1	0	0	0	0	?	?	?	?	?	?
+Cytheridella ilosvayi	1	2	1	0	2	2	0	0	0	2	0	0	0	0	1	1	1	0	0	0	1	1	0	1	1	1	1
+Cytheridella tepida	1	2	1	0	2	2	0	0	0	2	0	1	0	0	1	1	1	0	0	0	1	1	0	1	1	1	1
+Elpidium bromeliarum	0	0	1	1	2	2	1	0	0	2	0	1	1	1	0	0	1	1	1	1	0	1	1	0	1	0	1
+Elpidium inaequivalvis	0	0	1	1	2	2	1	0	0	2	0	1	1	1	?	0	1	1	1	1	0	1	1	0	1	0	1
+Gomphocythere irvinei	1	1	1	2	1	1	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	1	1	0	2	1	0
+Gomphocythere ortali	1	0	1	2	1	1	0	0	0	2	0	0	0	0	1	0	1	0	0	0	0	1	1	0	2	1	0
+Gomphodella maia	1	2	1	1	2	1	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	1	1	1	1	0	0
+Kovalevskiella cvetkovi	2	2	1	2	1	1	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	?	?	?	?	?	?
+Kovalevskiella phreaticola	2	2	1	2	1	1	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	?	?	?	?	?	?
+Metacypris cordata	1	0	1	1	2	1	1	1	0	0	0	1	0	0	0	1	1	0	0	0	0	1	1	1	0	2	0
+Metacypris digitiformis	1	0	1	1	2	1	1	1	0	0	0	1	0	0	0	1	1	0	0	0	0	1	1	1	0	2	0
+Thaicythere srisumonae	1	0	1	1	2	1	1	1	0	0	0	0	0	0	0	1	1	0	0	0	0	1	1	1	0	1	1
+Limnocythere inopinata	1	2	0	1	0	0	0	0	1	2	0	0	0	0	1	0	0	0	0	0	0	0	1	1	1	1	2
+Leucocythere mirabilis	1	2	0	1	0	0	0	0	1	2	0	0	0	0	1	0	0	0	0	0	0	0	1	1	1	1	2

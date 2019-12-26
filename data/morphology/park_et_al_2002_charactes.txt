@@ -1,0 +1,45 @@
+Character Number	Type (Binary, Multi-state, Meristic, Continuous)	Nstates	Character Name	State 1	State 2	State 3																			
+1	Binary	2	Tubercle	(0)absent	(1)present																				
+2	Binary	2	Ventroposterior flare	(0)absent	(1)present																				
+3	Multi-state	3	Surface reticulation	(0)absent	(1)reduced	(2)robust																			
+4	Binary	2	Brood pouch on female	(0)absent	(1)present																				
+5	Binary	2	Valve shape (dorsal view: anterior-posterior)	(0)oval	(1)square/rectangular																				
+6	Multi-state	3	Dorsal view of valve shape	(0)convex	(1)heart	(2)triangular																			
+7	Multi-state	3	Reticulation density of carapace	(0)absent	(1)<11(per5¦Ìm2)	(2)12?17(per5¦Ìm2)																			
+8	Binary	2	Sieve pore	(0)normal	(1)radial																				
+9	Binary	2	Central muscle scar	(0)straight	(1)posterior																				
+10	Multi-state	3	Node position	(0)absent	(1)anteroventral	(2)posteroventral																			
+11	Multi-state	3	Node number	(0)absent	(1)1	(2)3																			
+12	Multi-state	3	Maximum dorsal node size	(0)absent	(1)<0.1mm	(2)>0.1mm																			
+13	Multi-state	3	Maximum ventral node size	(0)absent	(1)<0.1mm	(2)>0.1 mm																			
+14	Binary	2	Sulcus	(0)absent	(1)present																				
+15	Binary	2	Alae	(0)absent	(1)present																				
+16	Binary	2	Ventrolateral expansion; alar prolongation	(0)absent	(1)present																				
+17	Binary	2	Ornamental medial ridge	(0)absent	(1)present																				
+18	Binary	2	Hinge angle	(0)parallel	(1)acute																				
+19	Binary	2	Shell thickness	(0)thin	(1)thick																				
+20	Binary	2	Marginal pore canals	(0)<5/0.1 mm?	(1)>5/0.1mm																				
+21	Multi-state	3	Hingement	(0)lophodont	(1)inverse lophodont	(2)merodont																			
+22	Multi-state	3	Total number of furca setae (female)	(0)2 setae each	(1)2 setae and 3 lobes	(2)more than 2 setae																			
+23	Binary	2	Distal lobe on hemipenis	(0)fixed	(1)movable																				
+24	Binary	2	Position of furca (male)	(0)above copulatory	(1)below copulatory																				
+25	Binary	2	Distal lobe apex	(0)ridged	(1)smooth																				
+26	Multi-state	3	A1 number of podomeres on endopodite	(0)4	(1)5	(2)6																			
+27	Binary	2	A1 character of 3rd and 4th podomeres	(0)separated	(1)fused																				
+28	Binary	2	A1 2nd endopodite podomere dorsal apical setae	(0)absent	(1)present																				
+29	Binary	2	A1 number of claws on last podomere of endopodite	(0)2+2	(1)2+1																				
+30	Multi-state	3	A1 number of mediodorsal setae on 3rd and 4th podomere	(0)1	(1)2	(2)3																			
+31	Binary	2	A1 number of medioventral spines on 3rd and 4th podomere	(0)1	(1)0																				
+32	Multi-state	3	A1 number of dorsal apical setae on 3rd and 4th podomeres	(0)1	(1)2	(2)3																			
+33	Multi-state	3	A1 position of ventral setae on 1st endopodite	(0)absent	(1)apically inserted	(2)medially inserted																			
+34	Multi-state	3	A1 number of ventral apical setae on 3rd and 4th podomeres	(0)0	(1)1	(2)2																			
+35	Binary	2	A2 number of podomeres on endopodite	(0)3	(1)4																				
+36	Binary	2	A2 1st endopodite podomere apical-ventral setae	(0)absent	(1)present																				
+37	Binary	2	A2 1st endopodite podomere shape	(0)rectangular	(1)square																				
+38	Binary	2	A2 number of ventral apical setae on second and third podomere of endopodite	(0)2	(1)1																				
+39	Binary	2	A2 number of mediodorsal setae on 2nd and 3rd podomeres	(0)1	(1)2																				
+40	Multi-state	3	A2 number of medioventral setae on 2nd and 3rd podomeres	(0)3	(1)2	(2)1																			
+41	Binary	2	Mandibular palp	(0)bent knee	(1)normal																				
+42	Binary	2	Mandibular palp setae	(0)bifurcated	(1)straight																				
+43	Binary	2	Mx palp	(0)reduced	(1)normal																				
+44	Multi-state	3	P3 size and shape of terminal claw	(0)very elongated	(1)slightly elongated and curved	(2)short and slightly curved																			
