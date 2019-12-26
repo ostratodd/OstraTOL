@@ -31,10 +31,23 @@ while(<MFILE>){
 	$taxno++;
 }
 close MFILE;
+
+my $binary=0; my $meristic=0; my $multi=0;
+#read characters file
 while(<CFILE>){
 	chomp;
 	next unless ($_);
 	my @cline = split(/\t/, $_);
+
+	if($cline[1] eq 'Binary'){
+		$binary=1;
+	}
+	if($cline[1] eq 'Meristic'){
+		$meristic=1;
+	}
+	if($cline[1] eq 'Multi-state'){
+		$multi=1;
+	}
 	for(my $i=1; $i < @cline; $i++){
 		$chars{$cline[0]}=$cline[1];
 	}
@@ -44,8 +57,17 @@ close CFILE;
 #Check some assumptions about file
 
 #Now print to phytab format using subfunction
-print_phytab("Binary","binary", $dataset);
-print_phytab("Multi-state","multistate", $dataset);
+#Need to check if there are >0 of each data type
+if($binary){
+	print_phytab("Binary","binary", $dataset);
+}
+if($multi){
+	print_phytab("Multi-state","multistate", $dataset);
+}
+if($meristic){
+	print_phytab("Meristic","meristic", $dataset);
+}
+
 
 sub print_phytab
 {
@@ -60,8 +82,11 @@ sub print_phytab
 			$species = $name;
 			$species =~ s/ /_/g;
 			print OUT "$species\t$print\t$dataset\t";
-			for(my $c = 0; $c < 30; $c++){
+			for(my $c = 0; $c < $maxchar; $c++){
 				if($chars{$c} eq $search){
+					if($matrix{$name}{$c} =~ m/\-/ ){
+						$matrix{$name}{$c} = "?";
+					}
 					if($search eq "Binary") {
 						if($matrix{$name}{$c} =~ m/\(/ ){
 							print "WARNING: Character $c is binary but $species is $matrix{$name}{$c} \t*****CHANGING to ? assuming missing data\n";
@@ -75,6 +100,12 @@ sub print_phytab
 					if($search eq "Multi-state") {
 						unless($matrix{$name}{$c} =~ m/[0123456789\?]/ ){
 							print "WARNING: Character $c is Multi-state [0-9] but $species is $matrix{$name}{$c} \t*****CHANGING to ? assuming missing data\n";
+							$matrix{$name}{$c} = '?';
+						}
+					}
+					if($search eq "Meristic") {
+						unless($matrix{$name}{$c} =~ m/[ABCDEFG0123456789\?]/ ){
+							print "WARNING: Character $c is Meristic [A-G 0-9] but $species is $matrix{$name}{$c} \t*****CHANGING to ? assuming missing data\n";
 							$matrix{$name}{$c} = '?';
 						}
 					}
