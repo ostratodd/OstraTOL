@@ -3,7 +3,7 @@ Character Number	"Type (Binary, Multi-state, Meristic, Continuous)"	Nstates	Char
 1	Binary	2	Anterior incisure on the shell	present (0)	absent (1)		0.75																		
 2	Binary	2	Longitudinal ridges on the surface	present (0)	absent (1)		0.5																		
 3	Multi-state	3	Fossae on the shell	rough (0)	present but small (1)	absent (2)	0.5																		
-4	multi-state	3	Caudal process on the shell	present and prominent (0)	present but small (1)	absent (2)	0.75																		
+4	Multi-state	3	Caudal process on the shell	present and prominent (0)	present but small (1)	absent (2)	0.75																		
 5	Binary	2	Posterior infold	with a row of prominent bristles starting from posterior part (0)	"only two prominent dorsal bristles present postero-dorsally, others much smaller and usually scattered (1)"		1																		
 6	Binary	2	"c-, f-, and g-bristles"	normal (0)	claw-like (1)		1																		
 7	Multi-state	3	Number of bristles intero-distally on the fused third and fourth segments of A1	3 (0)	2(1)	1 (2)	0.5																		
