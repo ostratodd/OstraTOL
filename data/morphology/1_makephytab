@@ -1,5 +1,5 @@
 
-../../scripts/morph2iqtree.pl Karanovic_2012_matrix.txt Karanovic_2012_characters.txt Karanovic_2012.phytab Karanovic12 > Karanovic12.log
+../../scripts/morph2iqtree.pl Karanovic_2012_matrix.txt Karanovic_2012_characters.txt Karanovic_2012.phytab Karanovic2012 > Karanovic2012.log
 ../../scripts/morph2iqtree.pl iglikowska_and_boxshall_2013_matrix.txt iglikowska_and_boxshall_2013_characters.txt iglikowska_and_boxshall_2013.phytab iglikowska_and_boxshall_2013 > iglikowska_and_boxshall_2013.log
 ../../scripts/morph2iqtree.pl karanovic_2005_table1_matrix.txt karanovic_2005_table1_characters.txt karanovic_2005_table1.phytab karanovic_2005_table1 > karanovic_2005_table1.log
 ../../scripts/morph2iqtree.pl karanovic_2005_table2_matrix.txt karanovic_2005_table2_characters.txt karanovic_2005_table2.phytab karanovic_2005_table2 > karanovic_2005_table2.log
