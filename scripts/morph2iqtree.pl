@@ -18,6 +18,7 @@ my $maxchar = 0;
 open (MFILE,"<$matrixfile") or die "Cannot open file to write\n";
 open (CFILE,"<$characterfile") or die "Cannot open file to write\n";
 open (OUT,">$phytab") or die "Cannot open file for writing\n";
+open (MODEL,">$dataset.model") or die "Cannot open file for writing\n";
 
 #read matrix
 while(<MFILE>){
@@ -60,12 +61,16 @@ close CFILE;
 #Need to check if there are >0 of each data type
 if($binary){
 	print_phytab("Binary","binary", $dataset);
+	print MODEL "binary_".$dataset."\tBIN\n";
 }
 if($multi){
 	print_phytab("Multi-state","multistate", $dataset);
+	print MODEL "multistate_".$dataset."\tMULTI\n";
+
 }
 if($meristic){
 	print_phytab("Meristic","meristic", $dataset);
+	print MODEL "meristic_".$dataset."\tMERISTIC\n";
 }
 
 
