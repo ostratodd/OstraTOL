@@ -81,7 +81,7 @@ sub print_phytab
 		}else{
 			$species = $name;
 			$species =~ s/ /_/g;
-			print OUT "$species\t$print\t$dataset\t";
+			print OUT "$species\t$print"."_"."$dataset\t$dataset\t";
 			for(my $c = 0; $c < $maxchar; $c++){
 				if($chars{$c} eq $search){
 					if($matrix{$name}{$c} =~ m/\-/ ){
@@ -98,12 +98,20 @@ sub print_phytab
 						}
 					}
 					if($search eq "Multi-state") {
+						if($matrix{$name}{$c} =~ m/\(/ ){
+							print "WARNING: Character $c is binary but $species is $matrix{$name}{$c} \t*****CHANGING to ? assuming missing data\n";
+							$matrix{$name}{$c} = '?';
+						}
 						unless($matrix{$name}{$c} =~ m/[0123456789\?]/ ){
 							print "WARNING: Character $c is Multi-state [0-9] but $species is $matrix{$name}{$c} \t*****CHANGING to ? assuming missing data\n";
 							$matrix{$name}{$c} = '?';
 						}
 					}
 					if($search eq "Meristic") {
+						if($matrix{$name}{$c} =~ m/\(/ ){
+							print "WARNING: Character $c is binary but $species is $matrix{$name}{$c} \t*****CHANGING to ? assuming missing data\n";
+							$matrix{$name}{$c} = '?';
+						}
 						unless($matrix{$name}{$c} =~ m/[ABCDEFG0123456789\?]/ ){
 							print "WARNING: Character $c is Meristic [A-G 0-9] but $species is $matrix{$name}{$c} \t*****CHANGING to ? assuming missing data\n";
 							$matrix{$name}{$c} = '?';

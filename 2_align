@@ -20,8 +20,6 @@ perl scripts/remove_acc.pl $andir/all_genbank.phytab Accessions_to_be_removed.tx
 perl scripts/remove_phytab_dupes.pl $andir/all_genbank_k.phytab 1 1 $andir/uni_genbank.phytab $andir/dupe_genbank.phytab
 
 
-
-
 #Uncomment to align all sequences. Takes time, so commenting here to allow rerunning other parts
 rm -r tmpphytabdata #remove directory created by phytab_muscle
 
