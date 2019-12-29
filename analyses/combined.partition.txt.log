@@ -1,0 +1,118 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    pod-login1.podcluster (AVX512, FMA3, 187 GB RAM)
+Command: iqtree -s analyses/combined.phylip -q analyses/combined.partition.txt
+Seed:    985245 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Dec 26 21:30:18 2019
+Kernel:  AVX+FMA - 1 threads (40 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 40 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file analyses/combined.partition.txt ...
+Reading alignment file analyses/combined.phylip ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+ERROR: Sequence Danielopolina_bahamensis has invalid character 3 at site 1
+ERROR: Sequence Danielopolina_baltanasi has invalid character 2 at site 1
+ERROR: Sequence Danielopolina_carolynae has invalid character 2 at site 1
+ERROR: Sequence Danielopolina_exuma has invalid character 2 at site 1
+ERROR: Sequence Danielopolina_kornickeri has invalid character 2 at site 1
+ERROR: Sequence Danielopolina_mexicana has invalid character 2 at site 1
+ERROR: Sequence Danielopolina_orghidani has invalid character 2 at site 1
+ERROR: Sequence Danielopolina_palmeri has invalid character 2 at site 1
+ERROR: Sequence Danielopolina_phalanx has invalid character 2 at site 1
+ERROR: Sequence Danielopolina_wilkensi has invalid character 2 at site 1
+ERROR: Sequence Deeveya_styrax has invalid character 0 at site 1
+ERROR: Sequence Thaumatoconcha_angeli_n.sp. has invalid character 2 at site 1
+ERROR: Sequence Thaumatoconcha_caraionae has invalid character 0 at site 1
+ERROR: Sequence Thaumatoconcha_dandani has invalid character 1 at site 1
+ERROR: Sequence Thaumatoconcha_elongata has invalid character 1 at site 1
+ERROR: Sequence Thaumatoconcha_hessleri has invalid character 0 at site 1
+ERROR: Sequence Thaumatoconcha_pix has invalid character 0 at site 1
+ERROR: Sequence Thaumatoconcha_polythrix has invalid character 1 at site 1
+ERROR: Sequence Thaumatoconcha_punctata has invalid character 1 at site 1
+ERROR: Sequence Thaumatoconcha_quasiporosa has invalid character 1 at site 1
+ERROR: Sequence Thaumatoconcha_radiata has invalid character 0 at site 1
+ERROR: Sequence Thaumatoconcha_sandersi has invalid character 1 at site 1
+ERROR: Sequence Thaumatoconcha_tuberculata has invalid character 0 at site 1
+ERROR: Sequence Thaumatocypris_echinata has invalid character 3 at site 1
+ERROR: Sequence Thaumatocypris_rudjakovi has invalid character 3 at site 1
+ERROR: Sequence Danielopolina_bahamensis has invalid character 4 at site 2
+ERROR: Sequence Danielopolina_baltanasi has invalid character 4 at site 2
+ERROR: Sequence Danielopolina_carolynae has invalid character 1 at site 2
+ERROR: Sequence Danielopolina_elizabethae has invalid character 4 at site 2
+ERROR: Sequence Danielopolina_exuma has invalid character 4 at site 2
+ERROR: Sequence Danielopolina_kakuki has invalid character 5 at site 2
+ERROR: Sequence Danielopolina_kornickeri has invalid character 0 at site 2
+ERROR: Sequence Danielopolina_mexicana has invalid character 2 at site 2
+ERROR: Sequence Danielopolina_orghidani has invalid character 4 at site 2
+ERROR: Sequence Danielopolina_palmeri has invalid character 4 at site 2
+ERROR: Sequence Danielopolina_phalanx has invalid character 3 at site 2
+ERROR: Sequence Danielopolina_wilkensi has invalid character 1 at site 2
+ERROR: Sequence Deeveya_styrax has invalid character 2 at site 2
+ERROR: Sequence Thaumatoconcha_angeli_n.sp. has invalid character 1 at site 2
+ERROR: Sequence Thaumatoconcha_caraionae has invalid character 1 at site 2
+ERROR: Sequence Thaumatoconcha_dandani has invalid character 1 at site 2
+ERROR: Sequence Thaumatoconcha_elongata has invalid character 1 at site 2
+ERROR: Sequence Thaumatoconcha_hessleri has invalid character 1 at site 2
+ERROR: Sequence Thaumatoconcha_pix has invalid character 1 at site 2
+ERROR: Sequence Thaumatoconcha_polythrix has invalid character 1 at site 2
+ERROR: Sequence Thaumatoconcha_porosa has invalid character 1 at site 2
+ERROR: Sequence Thaumatoconcha_punctata has invalid character 1 at site 2
+ERROR: Sequence Thaumatoconcha_quasiporosa has invalid character 1 at site 2
+ERROR: Sequence Thaumatoconcha_radiata has invalid character 1 at site 2
+ERROR: Sequence Thaumatoconcha_sandersi has invalid character 1 at site 2
+ERROR: Sequence Thaumatoconcha_tuberculata has invalid character 1 at site 2
+ERROR: Sequence Thaumatocypris_echinata has invalid character 0 at site 2
+ERROR: Sequence Thaumatocypris_rudjakovi has invalid character 0 at site 2
+ERROR: Sequence Danielopolina_bahamensis has invalid character 1 at site 3
+ERROR: Sequence Danielopolina_baltanasi has invalid character 0 at site 3
+ERROR: Sequence Danielopolina_carolynae has invalid character 0 at site 3
+ERROR: Sequence Danielopolina_elizabethae has invalid character 1 at site 3
+ERROR: Sequence Danielopolina_exuma has invalid character 0 at site 3
+ERROR: Sequence Danielopolina_kakuki has invalid character 0 at site 3
+ERROR: Sequence Danielopolina_kornickeri has invalid character 0 at site 3
+ERROR: Sequence Danielopolina_mexicana has invalid character 0 at site 3
+ERROR: Sequence Danielopolina_orghidani has invalid character 0 at site 3
+ERROR: Sequence Danielopolina_palmeri has invalid character 0 at site 3
+ERROR: Sequence Danielopolina_phalanx has invalid character 0 at site 3
+ERROR: Sequence Danielopolina_wilkensi has invalid character 0 at site 3
+ERROR: Sequence Deeveya_styrax has invalid character 0 at site 3
+ERROR: Sequence Thaumatoconcha_angeli_n.sp. has invalid character 0 at site 3
+ERROR: Sequence Thaumatoconcha_caraionae has invalid character 0 at site 3
+ERROR: Sequence Thaumatoconcha_dandani has invalid character 1 at site 3
+ERROR: Sequence Thaumatoconcha_elongata has invalid character 0 at site 3
+ERROR: Sequence Thaumatoconcha_hessleri has invalid character 0 at site 3
+ERROR: Sequence Thaumatoconcha_pix has invalid character 0 at site 3
+ERROR: Sequence Thaumatoconcha_polythrix has invalid character 0 at site 3
+ERROR: Sequence Thaumatoconcha_porosa has invalid character 0 at site 3
+ERROR: Sequence Thaumatoconcha_punctata has invalid character 0 at site 3
+ERROR: Sequence Thaumatoconcha_quasiporosa has invalid character 0 at site 3
+ERROR: Sequence Thaumatoconcha_radiata has invalid character 0 at site 3
+ERROR: Sequence Thaumatoconcha_sandersi has invalid character 0 at site 3
+ERROR: Sequence Thaumatoconcha_tuberculata has invalid character 0 at site 3
+ERROR: Sequence Thaumatocypris_echinata has invalid character 0 at site 3
+ERROR: Sequence Thaumatocypris_rudjakovi has invalid character 0 at site 3
+ERROR: Sequence Danielopolina_bahamensis has invalid character 1 at site 4
+ERROR: Sequence Danielopolina_baltanasi has invalid character 1 at site 4
+ERROR: Sequence Danielopolina_carolynae has invalid character 0 at site 4
+ERROR: Sequence Danielopolina_elizabethae has invalid character 1 at site 4
+ERROR: Sequence Danielopolina_exuma has invalid character 1 at site 4
+ERROR: Sequence Danielopolina_kakuki has invalid character 1 at site 4
+ERROR: Sequence Danielopolina_kornickeri has invalid character 0 at site 4
+ERROR: Sequence Danielopolina_mexicana has invalid character 1 at site 4
+ERROR: Sequence Danielopolina_orghidani has invalid character 0 at site 4
+ERROR: Sequence Danielopolina_palmeri has invalid character 1 at site 4
+ERROR: Sequence Danielopolina_phalanx has invalid character 1 at site 4
+ERROR: Sequence Danielopolina_wilkensi has invalid character 1 at site 4
+ERROR: Sequence Deeveya_styrax has invalid character 1 at site 4
+ERROR: Sequence Thaumatoconcha_angeli_n.sp. has invalid character 0 at site 4
+ERROR: Sequence Thaumatoconcha_caraionae has invalid character 0 at site 4
+ERROR: Sequence Thaumatoconcha_dandani has invalid character 0 at site 4
+ERROR: Sequence Thaumatoconcha_elongata has invalid character 0 at site 4
+ERROR: Sequence Thaumatoconcha_hessleri has invalid character 0 at site 4
+ERROR: Sequence Thaumatoconcha_pix has invalid character 0 at site 4
+ERROR: ...many more...
+ERROR: 
