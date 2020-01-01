@@ -16,8 +16,8 @@ Character Number	Type (Binary, Multi-state, Meristic, Continuous)	Nstates	Charac
 14	Binary	2	Coxale endite on the L3	bifurcate, prominent and surrounded with spinous bristles (0)	reduced to a single spine or absent (1)		0.75
 15	Binary	2	Expopod on the L3	with a clear segment and apical bristle(s) (0)	absent or only bristle left (1)		1
 16	Binary	2	Endopodal segments of L3	at least one with more than two claws (0)	all with one claw (1)		1
-17	Binary	2	Number of bristles on the exopod L4	two (0)	one (1)		0.5
-18	Binary	2	Number of bristles on the endite of L6	two (0)	one (1)		0.5
+17	Multi-state	3	Number of bristles on the exopod L4	two (0)	one (1)	three(2)	0.5
+18	Multi-state	3	Number of bristles on the endite of L6	two (0)	one (1)	3 or more(2)	0.5
 19	Multi-state	3	Number of distal brisles on the L6	more than 14 (0)	12 or 13 (1)	11 or fewer (2)	0.5
 20	Binary	2	Distal end of the L7	with teeth at least on one side (0)	without teeth (1)		1
 21	Multi-state	3	Distal end of the L7 with	teeth on both sides (0)	on one side only (1)	on neither side (2)	1
