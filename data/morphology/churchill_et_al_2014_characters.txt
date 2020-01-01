@@ -1,0 +1,33 @@
+Character Number	Type (Binary, Multi-state, Meristic, Continuous)	Nstates	Character Name	State 1	State 2	State 3	Character Weight
+0	Binary	2	Rostrum	pronounced (0)	absent or very small (1)		1
+1	Binary	2	Anterior incisure on the shell	present (0)	absent (1)		0.75
+2	Multi-state	3	Fossae on the shell	rough (0)	present but small (1)	absent (2)	0.5
+3	Multi-state	3	Caudal process on the shell	present and prominent (0)	present but small (1)	absent (2)	0.75
+4	Binary	2	Posterior infold	with a row of prominent bristles starting from posterior part (0)	only two prominent dorsal bristles present postero-dorsally, others much smaller and usually scattered (1)		1
+5	Binary	2	L1	c-, f-, and g-bristles: normal (0)	claw-like (1)		1
+6	Multi-state	3	Number of bristles intero-distally on the fused third and fourth segments of L1	three (0)	two (1)	one (2)	0.5
+7	Multi-state	3	Endopod on the L2	dimeric (0)	monomeric (1)	trimeric (2)	0.75
+8	Multi-state	3	Second segment on the endopod L2	prominent and clearly divided (0)	very short and almost fused with the previous one (1)	absent (2)	0.75
+9	Multi-state	3	Number of bristles on the first segment of endopod L2	three (0)	two (1)	one (2)	0.5
+10	Binary	2	Apical bristle(s) on the endopod L2	present (0)	absent (1)		0.75
+11	Multi-state	3	Apical bristle on the endopod of L2	present and long (0)	present and short (1)	absent (2)	0.75
+12	Multi-state	3	Number of apical bristles on the endopod L2	two (0)	one (1)	zero (2)	0.75
+13	Binary	2	Number of bristles on the terminal segment of exopod L2	three (0)	two (1)		0.75
+14	Binary	2	Coxale endite on the L3	bifurcate, prominent and surrounded with spinous bristles (0)	reduced to a single spine or absent (1)		0.75
+15	Binary	2	Expopod on the L3	with a clear segment and apical bristle(s) (0)	absent or only bristle left (1)		1
+16	Binary	2	Endopodal segments of L3	at least one with more than two claws (0)	all with one claw (1)		1
+17	Multi-state	3	Number of bristles on the exopod L4	two (0)	one (1)	three(2)	0.5
+18	Multi-state	3	Number of bristles on the endite of L6	two (0)	one (1)	3 or more(2)	0.5
+19	Multi-state	3	Number of distal brisles on the L6	more than 14 (0)	12 or 13 (1)	11 or fewer (2)	0.5
+20	Binary	2	Distal end of the L7	with teeth at least on one side (0)	without teeth (1)		1
+21	Multi-state	3	Distal end of the L7 with	teeth on both sides (0)	on one side only (1)	on neither side (2)	1
+22	Multi-state	3	L7, Number of teeth in each comb	more than 3 (0)	3 or fewer (1)	no teeth on the comb (2)	0.75
+23	Multi-state	3	Number of opposite pairs on the bell-bearing bristles distally on L7	more than two (0)	two (1)	one (2)	0.75
+24	Multi-state	3	Number of claws on the furca	7 or more (0)	6 (1)	5 or fewer (2)	0.75
+25	Multi-state	3	Number of claws fused with furcal lamellae	three (0)	two (1)	one (2)	1
+26	Binary	2	Second claw on the furca	fused with lamellae (0)	free (1)		1
+27	Binary	2	Third claw on the furca	fused with lamellae (0)	free (1)		1
+28	Binary	2	Fourth claw on the furca	fused with lamellae (0)	free (1)		1
+29	Binary	2	Claws on the furca	gradually decreasing in length (0)	one of the claws being shorter than its neighbours (1)		1
+30	Binary	2	Bellonci organ	segmented (0)	not segmented or segmentation not clear (1)		0.75
+31	Binary	2	Lateral eye	present (0)	absent (1)		0.75
