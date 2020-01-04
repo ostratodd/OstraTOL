@@ -1,3 +1,5 @@
+binary_churchill_et_al_2014	BIN
+multistate_churchill_et_al_2014	MULTI
 binary_iglikowska_and_boxshall_2013	BIN
 multistate_iglikowska_and_boxshall_2013	MULTI
 meristic_iglikowska_and_boxshall_2013	MERISTIC
@@ -5,8 +7,6 @@ binary_karanovic_2005_table1	BIN
 multistate_karanovic_2005_table1	MULTI
 binary_karanovic_2005_table2	BIN
 multistate_karanovic_2005_table2	MULTI
-binary_karanovic_2012	BIN
-multistate_karanovic_2012	MULTI
 binary_karanovic_et_al_2016	BIN
 multistate_karanovic_et_al_2016	MULTI
 binary_kong_et_al_2014	BIN
