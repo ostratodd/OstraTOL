@@ -15,6 +15,6 @@ Gomphocythere parcedilatata	0	1	0	1	0	0	1	1	1	0	0	0	0	1	0	0	1	0	0	0	1	1	1	1	1	0	
 Gomphocythere simplex	0	0	0	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0	1	1	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	0	0	0	1	1	1	2
 Gomphocythere wilsoni	1	?	0	1	0	0	1	1	1	0	0	0	0	1	0	1	0	1	0	1	1	1	1	1	1	0	1	1	0	0	0	2	1	0	0	1	1	0	0	1	1	1	1	1
 Gomphocythere woutersi	0	0	1	1	1	2	1	1	1	1	1	0	2	1	0	0	0	0	1	1	1	1	1	1	0	0	1	1	1	1	0	0	1	0	0	1	1	0	0	2	1	1	1	0
-Cytheridella  chariessa	0	0	0	1	0	1	0	1	1	0	0	0	0	1	0	0	0	1	0	0	?	0	1	?	1	0	1	1	0	1	1	2	2	0	0	0	0	0	1	1	1	1	1	0
-Leucocythere	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	1	0	0	2	2	0	0	1	0	1	1	0	0	0	2	0	0	0	1	1	1	1	0	0	0	0	0
+Cytheridella chariessa	0	0	0	1	0	1	0	1	1	0	0	0	0	1	0	0	0	1	0	0	?	0	1	?	1	0	1	1	0	1	1	2	2	0	0	0	0	0	1	1	1	1	1	0
+Leucocythere sp.	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	1	0	0	2	2	0	0	1	0	1	1	0	0	0	2	0	0	0	1	1	1	1	0	0	0	0	0
 Limnocythere dadayi	0	0	0	0	0	0	1	0	0	1	2	1	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	1	0	1	1	0	1	0	0	0	0	0
