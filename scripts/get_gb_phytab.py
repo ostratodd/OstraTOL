@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[18]:
+# In[2]:
 
 
 #!/usr/bin/python
@@ -10,7 +10,7 @@
 #Author: Lisa Mesrop
 
 
-# In[4]:
+# In[ ]:
 
 
 from Bio import Entrez
@@ -41,24 +41,35 @@ for filename in onlyfiles:
             accessions.append(line.strip())
             
         Entrez.email = "lmesrop@ucsb.edu"    
-        handle = Entrez.efetch(db="nucleotide", id=accessions, rettype="fasta", retmode="text")
-        record = SeqIO.parse(handle, "fasta")
+        handle = Entrez.efetch(db="nucleotide", id=accessions, rettype="gb", retmode="text")
+        record = SeqIO.parse(handle,"gb")
+        #handle = Entrez.efetch(db="nucleotide", id=accessions, rettype="fasta", retmode="text")
+        #record = SeqIO.parse(handle, "fasta")
         records = list(record)
         
         with open(outpath, 'w') as fp:
 
             for row in records:
-                rec_id = re.findall("([^\.]*)", row.id)[0]
-                if "cf." in row.description:
-                    species = re.findall("\S* (\S* \S* \S*)", row.description)[0] 
-                else:
-                    species = re.findall("\S* (\S* \S*)", row.description)[0]
-                species = species.replace(" ", "_")
+                #print(row)
+                rec_id = row.id
+                #rec_id = re.findall("([^\.]*)", row.id)[0]
+                #if "cf." in row.description:
+                #    species = re.findall("\S* (\S* \S* \S*)", row.description)[0] 
+                #else:
+                #    species = re.findall("\S* (\S* \S*)", row.description)[0]
+                species = row.annotations["organism"]
+                species_replace = species.replace(" ", "_")
                 #gname = re.findall(" ([A-Z0-9]{3})", row.description)[0]
                 seq = row.seq
 
-                line = "{}\t{}\t{}\t{}\n".format(species, gname, rec_id, seq)
+                line = "{}\t{}\t{}\t{}\n".format(species_replace, gname, rec_id, seq)
                 fp.write(line)
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
