@@ -1,0 +1,11 @@
+Character Number	Type (Binary, Multi-state, Meristic, Continuous)	Nstates	Character Name	State 1	State 2
+0	Binary	2	Telson	Absent or represented by a small process (0)	Well-developed (1)
+1	Binary	2	Uropod 	Present (0)	Absebt (1)
+2	Binary	2	Median eye	Present (0)	Absebt (1)
+3	Binary	2	Male copulatory organ	Paired (0)	Unpaired (1)
+4	Binary	2	Sixth limb	Elongated ,formed of many distinct joints (0)	Flat, poorly jointed or absent (1)
+5	Binary	2	Maxilla	Distinctly biramous (0)	Uniramous (1)
+6	Binary	2	Sixth and seventh limbs	Present (0)	Absent (1)
+7	Binary	2	Male copulatory organ	single simple (0)	single complex (1)
+8	Binary	2	First antenna	enlongated, with 7 or 8 joints (0)	shorter, with fewer than 7 joints (1)
+9	Binary	2	Heart 	Present (0)	Absent (1)

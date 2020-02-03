@@ -1,0 +1,27 @@
+Taxon	0	1	2	3	4	5	6	7	8	9
+Danielopolina carolynae	1	1	1	1	0	1	0	0	0	1
+Danielopolina kornickeri	1	1	1	1	0	1	0	0	0	1
+Danielopolina wilkensi	1	1	1	1	0	1	0	0	0	1
+Thaumatoconcha elongata	1	1	1	1	0	1	0	0	0	1
+Thaumatocypris rudjakovi	1	1	1	1	0	1	0	0	0	1
+Conchoecia sp	1	1	1	1	0	1	0	0	1	0
+Orthoconchoecia secernenda	1	1	1	1	0	1	0	0	1	0
+Paraconchoecia aequiseta	1	1	1	1	0	1	0	0	1	0
+Paraconchoecia mamillata	1	1	1	1	0	1	0	0	1	0
+Paraconchoecia oblonga	1	1	1	1	0	1	0	0	1	0
+Polycope yasuharai	1	1	1	1	1	0	1	1	1	1
+Polycopetta quadrispinata	1	1	1	1	1	0	1	1	1	1
+Parapolycope digitolabrum	1	1	1	1	1	0	1	1	1	1
+Parapolycope japonica	1	1	1	1	1	0	1	1	1	1
+Parapolycope koreana	1	1	1	1	1	0	1	1	1	1
+Vargula hilgendorfii	1	1	0	0	1	1	0	?	0	0
+Vargula sp.	1	1	0	0	1	1	0	?	0	0
+Vargula tsujii	1	1	0	0	1	1	0	?	0	0
+Cypridina dentata	1	1	0	0	1	1	0	?	0	0
+Cypridina noctiluca	1	1	0	0	1	1	0	?	0	0
+Cypridopsis vidua	0	0	0	?	0	0	0	?	?	1
+Chrissia monodi	0	0	0	?	0	0	0	?	?	1
+Chrissia dongqianhuensis	0	0	0	?	0	0	0	?	?	1
+Eucypris mareotica	0	0	0	?	0	0	0	?	?	1
+Heterocypris incongruens	0	0	0	?	0	0	0	?	?	1
+Heterocypris salina	0	0	0	?	0	0	0	?	?	1
