@@ -3,10 +3,11 @@
 #../../scripts/morph2iqtree.pl iglikowska_and_boxshall_2013_matrix.txt iglikowska_and_boxshall_2013_characters.txt iglikowska_and_boxshall_2013.phytab iglikowska_and_boxshall_2013 > iglikowska_and_boxshall_2013.log
 #../../scripts/morph2iqtree.pl karanovic_2005_table1_matrix.txt karanovic_2005_table1_characters.txt karanovic_2005_table1.phytab karanovic_2005_table1 > karanovic_2005_table1.log
 #../../scripts/morph2iqtree.pl karanovic_2005_table2_matrix.txt karanovic_2005_table2_characters.txt karanovic_2005_table2.phytab karanovic_2005_table2 > karanovic_2005_table2.log
-../../scripts/morph2iqtree.pl karanovic_et_al_2016_matrix.txt karanovic_et_al_2016_characters.txt karanovic_et_al_2016.phytab karanovic_et_al_2016 > karanovic_et_al_2016.log
+#../../scripts/morph2iqtree.pl karanovic_et_al_2016_matrix.txt karanovic_et_al_2016_characters.txt karanovic_et_al_2016.phytab karanovic_et_al_2016 > karanovic_et_al_2016.log
 #../../scripts/morph2iqtree.pl kong_et_al_2014_matrix.txt kong_et_al_2014_characters.txt kong_et_al_2014.phytab kong_et_al_2014 > kong_et_al_2014.log
 #../../scripts/morph2iqtree.pl martens_2005_matrix.txt martens_2005_characters.txt martens_2005.phytab martens_2005 > martens_2005.log
-../../scripts/morph2iqtree.pl park_et_al_2002_matrix.txt park_et_al_2002_characters.txt park_et_al_2002.phytab park_et_al_2002 > park_et_al_2002.log
+#../../scripts/morph2iqtree.pl park_et_al_2002_matrix.txt park_et_al_2002_characters.txt park_et_al_2002.phytab park_et_al_2002 > park_et_al_2002.log
 #../../scripts/morph2iqtree.pl savatenalinton_et_al_2008_matrix.txt savatenalinton_et_al_2008_characters.txt savatenalinton_et_al_2008.phytab savatenalinton_et_al_2008 > savatenalinton_et_al_2008.log
 #../../scripts/morph2iqtree.pl savatenalinton_et_al_2009_matrix.txt savatenalinton_et_al_2009_characters.txt savatenalinton_et_al_2009.phytab savatenalinton_et_al_2009 > savatenalinton_et_al_2009.log
 #../../scripts/morph2iqtree.pl churchill_et_al_2014_matrix.txt churchill_et_al_2014_characters.txt churchill_et_al_2014.phytab churchill_et_al_2014 > churchill_et_al_2014.log
+../../scripts/morph2iqtree.pl mbank_X26433_matrix.txt mbank_X26433_characters.txt mbank_X26433.phytab mbank_X26433 > mbank_X26433.log
