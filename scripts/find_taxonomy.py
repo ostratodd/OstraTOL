@@ -19,17 +19,12 @@ if len(sys.argv) < 2:
 else:
 
     def lookuplineage(category):
-        k = '-'
-        p = '-'
-        c = '-'
-        o = '-'
-        f = '-'
-        g = '-'
-        s = '-'
         for lineage in lineages:
             if randic[lineage] == category:
                 category = linamedic[lineage]
-        return category
+                return category
+        else:
+            return '-'
     # print(s + '\t '+ k + '\t' + p + '\t' + c + '\t' + o +'\t' + f + '\t' + g + '\n')
 
     specieslist = sys.argv[1]
@@ -38,12 +33,12 @@ else:
 
     with open (specieslist,'r') as splist:
         with open (outputfile,'w') as outfile:
-            outfile.write('species' + '\t' + 'kingdom' + '\t' + 'phylum' + '\t' + 'class' + '\t' + 'order' + '\t' + 'family' + '\t' + 'genus' + '\n')
+            outfile.write('species' + '\t' + 'kingdom' + '\t' + 'phylum' + '\t' + 'subphylum' + '\t' + 'superclass'+ '\t' + 'class' + '\t' + 'subclass' + '\t' + 'order' + '\t' + 'suborder'+ '\t' + 'superfamily' + '\t' + 'family' + '\t' + 'genus' + '\t' 'species' '\n')
             for taxaname in splist:
                 taxaname = taxaname.strip('\n')
                 name2taxid = ncbi.get_name_translator([taxaname])
                 if len(name2taxid) == 0:
-                    outfile.write(taxaname + '\t' + '-' + '\t' + '-' + '\t' + '-' + '\t' + '-' + '\t' + '-' + '\t' + '-' + '\n')
+                    outfile.write(taxaname + '\n')  #    + '\t' + '-' + '\t' + '-' + '\t' + '-' + '\t' + '-' + '\t' + '-' + '\t' + '-' + '\t' + '-'+ '\t' + '-'+ '\t' + '-'+ '\t' + '-'+ '\t' + '-'+ '\n')
                 else:
                     
                     for id in name2taxid[taxaname]:
@@ -58,7 +53,12 @@ else:
                     o = lookuplineage('order')
                     f = lookuplineage('family')
                     g = lookuplineage('genus')
-                    outfile.write(s + '\t '+ k + '\t' + p + '\t' + c + '\t' + o +'\t' + f + '\t' + g + '\n')
+                    sph = lookuplineage('subphylum')
+                    supc = lookuplineage('superclass')
+                    subc = lookuplineage('subclass')
+                    subo = lookuplineage('suborder')
+                    supf = lookuplineage('superfamily')
+                    outfile.write(taxaname + '\t '+ k + '\t' + p + '\t' + sph + '\t' + supc + '\t' + c + '\t' +subc + '\t' + o + '\t' +subo + '\t' + supf +'\t' + f + '\t' + g + '\t' + s + '\n')
 
         outfile.close()
     splist.close() 
