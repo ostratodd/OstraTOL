@@ -48,7 +48,7 @@ def toData(text):
 	result = ''
 	for line in text:
 	    if '>' in line:
-	        line = '\n' + line.replace('> ', "") + '\t'
+	        line = '\n' + line.replace('>', "") + '\t'
 	    line = line.replace(" ", "\t")
 	    result += line
 	return result[1:]  # Index past the first newline char
